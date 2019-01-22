@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <title>Site Analyzer - Blazzard</title>
+
+</head>
+<body>
+  <h1>Output</h1>
+  <main>
+     <section class="output"></section>
+  </main>
+
+<script>
+    function getMeta(url) { 
+      let metas = url.getElementsByTagName('meta'); 
+      for (var i=0; i<metas.length; i++) { 
+        if (metas[i].getAttribute("name") == "description") { 
+          return metas[i].getAttribute("content"); 
+        } 
+      return "";
+      }
+    } 
+    
+    document.getElementById("output").innerHTML = getMeta(getQueryStringValue("url"));
+</script>
+
+
+</body>
+</html>

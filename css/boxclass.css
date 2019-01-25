@@ -1,0 +1,36 @@
+﻿/* Class Selectors *******************************************************/
+.info, .warn, .error, .yea, .code, .questions {
+    margin: 7px auto;
+    padding: 7px;
+    display: inline-block;
+    font-size: .95em;
+    color: #000;
+    text-align: left;
+}
+
+.info {
+    background-color: #ddeeff;
+    border-left: 5px solid #000087;
+}
+
+.yea {
+    background-color:#ddeebb;
+    border-left: 5px solid #008700;   
+}
+
+.warn {
+    background-color:#ffffdc;
+    border-left: 5px solid #9f6000;
+}
+
+.error {
+    background-color:#E7F4FF;
+    border-left: 5px solid #C9DDFA;
+}
+
+.code {
+    background-color:#ccc;
+    color: #000;
+    background-image: url();
+    padding-left: 50px;
+}

@@ -36,3 +36,17 @@ label {
     font-weight: 700;
 }
 
+figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border: 1px solid #bbb;
+    background-color: #eee;
+    padding: 5px;
+}
+
+figcaption {
+    display
+}
+

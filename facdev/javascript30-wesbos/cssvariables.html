@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link src="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>CSS Variables - <span class="he">JS</span> Control</h1>
+
+    <div class="controls">
+      <label for="spacing">Spacing:</label>
+      <input type="range" name="spacing" min="10" max="200" value="10" data-sizing="">
+      <label for="blur">Blur:</label>
+      <input type="blur" name="spacing" min="10" max="200" value="10" data-sizing="">
+      <label for="base">Base Color:</label>
+      <input type="color" name="base" min="10" max="200" value="10" data-sizing="">
+    </div>
+    <img scr="images/city.jpg" alt="City Scape">
+
+    <script>
+      const inputs = document.querySelector('.controls input');
+      
+      function handleUpdate() {
+        console.log(this.value);
+      }
+
+      inputs.forEach(input => input.addEventListener('change', handleUpdate));
+    
+    </script>
+  </body>
+</html>

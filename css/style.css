@@ -3,14 +3,25 @@
 }
 
 body {
-    font-family: 'Luckiest Guy', Arial, Helvetica, sans-serif;    
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     letter-spacing: .15rem;
 }
 
+
 main {
     display: flex;
     flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+    font-family: 'Luckiest Guy', cursive;
 }
 
 h1 {
@@ -27,7 +38,8 @@ form {
     box-shadow: darkgrey 3px 3px 5px;
 }
 
-input, textarea {
+input,
+textarea {
     padding: .5rem;
     font-size: 1.3rem;
 }
@@ -37,7 +49,7 @@ label {
 }
 
 figure {
-    display: flex;
+    display: inline-block;
     align-items: center;
     justify-content: center;
     margin: 10px;
@@ -47,6 +59,6 @@ figure {
 }
 
 figcaption {
-    display
+    font-size: .85rem;
+    font-variant-caps: all-petite-caps;
 }
-

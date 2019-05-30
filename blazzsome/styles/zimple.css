@@ -1,0 +1,41 @@
+﻿body {
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+header, main, footer {
+    flex: 100%;
+}
+
+h1 {
+
+    flex: 100%;
+    text-align:center;
+}
+
+main {
+    flex: 100%;
+}
+
+section {
+    flex: 1;
+}
+
+img {
+    width: 128px;
+    height: auto;
+}
+
+footer {
+    text-align:center;
+    margin: 20px;
+    border-top: 1px solid #bbb;
+    padding:20px;
+}
+
+@media (min-width:67em) {
+    header, main, footer {
+        max-width:67em;
+    }
+}

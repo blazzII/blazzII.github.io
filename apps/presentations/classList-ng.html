@@ -1,0 +1,33 @@
+﻿<!doctype html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <title>AngularJS Example</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script>
+        var sp_app = angular.module('sp', []);
+        sp_app.controller('topicCtrl', function ($scope, $http) {
+            $http.get("serverCode.php")
+                .then(function (response) { $scope.class01 = response.data.records; });
+        });
+
+    </script>
+</head>
+<body>
+    <h1>Student Presenation List - Using Angular</h1>
+    <main>
+        <section ng-app="sp" ng-controller="topicCtrl">
+            Testing: <button ng-click="count=count+1" ng-init="count=0">{{ count }}</button>
+            <table>
+                <tr ng-repeat="x in class01">
+                    <td>{{ x.Topic }}</td>
+                    <td>{{ x.Lesson }}</td>
+                    <td>{{ x.Student }}</td>
+                    <td>{{ x.DateSelected }}</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+   
+</body>
+</html>

@@ -1,0 +1,60 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>Blazzsome</title>
+    <meta name="author" content="Blazzard">
+    <link rel="stylesheet" type="text/css" href="styles/blazzStyle.css" />
+</head>
+<body>
+    <div class="header-logo">
+        <a class="header-logo-anchor" href="/"><img src="images/jbbYnew.jpg" width="100" /></a>
+    </div>
+
+<div class="wrapper">
+  <header class="top blue">
+    <section>
+      <nav>
+        <ol>
+            <li><a href="#">Home</a></li>
+            <li><a href="YouTubeAddict.html">YouTube Addict</a></li>
+            <li><a href="MissionaryStatus.html">Missionary Status</a></li>
+            <li><a href="about.html">About</a></li>
+        </ol>
+      </nav>
+    </section>
+  </header>
+  <main>  
+    <script>
+    // get the document elements for video feed
+        var videoElement = document.getElementById("videoBackground");
+        var pauseButton = document.querySelector(".messageButton button");
+
+        function videoFade() {
+            videoElement.classList.add("stopfade");
+        }
+
+        videoElement.addEventListener('ended', function () {
+            videoElement.pause();
+            videoFade(); // some issues with new IE browser
+        });
+    </script>
+
+            <video id="videoBackground" autoplay poster="http://blazzsome.jasonblazzard.com/videos/DrivingPlaceholder.mp4">
+                <source src="http://blazzsome.jasonblazzard.com/videos/DrivingPlaceholder.mp4" type="video/mp4">
+            </video>
+            <div class="message">
+                <h1>Blazzsome</h1>
+                <h2>A project oriented site.</h2>
+                <p>List of ideas:</p>
+            </div>
+  </main>
+  <footer class="blue">
+      <section>
+        &copy; 2016 .:|:. All Rights Reserved .:|:. Blazzsome
+      </section>
+  </footer>
+</div> <!-- end of wrapper divider -->
+</body>
+</html>

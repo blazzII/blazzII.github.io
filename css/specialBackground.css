@@ -1,0 +1,112 @@
+﻿html {
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+    background: #000;
+}
+
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    letter-spacing: .3rem;
+}
+
+h2 {}
+
+a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.5);
+    padding: .5rem;
+    transition: .6s background;
+}
+
+a:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('http://www.jasonblazzard.com/videos/backWaterSking.mp4') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+.message {
+    font-family: Ubuntu, Consolas;
+    font-weight: 100;
+    font-size: 1.2rem;
+    background: rgba(176, 196, 222, 0.5);
+    color: #000;
+    margin: 2rem;
+    padding: 2rem;
+    width: 50%;
+    float: right;
+    position: fixed;
+    bottom: 0;
+    animation: seconds 1.0s backwards;
+    animation-iteration-count: 1;
+    animation-delay: 15s;
+}
+
+@keyframes seconds {
+    0% {
+        opacity: 0;
+        left: -9999px;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.messageButton {
+    display: block;
+    width: 80%;
+    padding: .4rem;
+    border: none;
+    margin: 1rem auto;
+    font-size: 1.3rem;
+    background: rgba(255, 255, 255, 0.23);
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s background;
+}
+
+.messageButton button:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.stopfade {
+    opacity: .5;
+}
+
+@media screen and (max-width: 500px) {
+    div {
+        width: 70%;
+    }
+}
+
+@media screen and (max-device-width: 800px) {
+    html {
+        background: url(//images/byui.png) #000 no-repeat center center fixed;
+    }
+    #videoBackground {
+        display: none;
+    }
+    video {
+        display: none;
+    }
+}

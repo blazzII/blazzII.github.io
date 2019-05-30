@@ -1,0 +1,13 @@
+﻿{
+  "temples": [
+
+    {
+      "loc": "Boise Idaho",
+      "img": "https://media.ldscdn.org/images/media-library/temples/boise-idaho/boise-idaho-temple-lds-1012653-gallery.jpg"
+    },
+    {
+      "loc": "Spokane Washington",
+      "img": "https://media.ldscdn.org/images/media-library/temples/spokane-washington/spokane-washington-temple-lds-1012653-gallery.jpg"
+    }
+  ]
+}

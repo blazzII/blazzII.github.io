@@ -1,0 +1,69 @@
+[02-Jan-2016 09:54:29 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'username'@'localhost' (using password: YES) in /home2/jasonbl7/public_html/cit230/includes/dataConn.php on line 7
+[02-Jan-2016 10:15:31 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'username'@'localhost' (using password: YES) in /home2/jasonbl7/public_html/cit230/includes/dataConn.php on line 7
+[02-Jan-2016 10:15:34 America/Denver] PHP Parse error:  syntax error, unexpected 'is_null' (T_STRING) in /home2/jasonbl7/public_html/cit230/presentation/index.php on line 52
+[02-Jan-2016 10:15:40 America/Denver] PHP Parse error:  syntax error, unexpected 'is_null' (T_STRING) in /home2/jasonbl7/public_html/cit230/presentation/index.php on line 52
+[02-Jan-2016 10:15:46 America/Denver] PHP Parse error:  syntax error, unexpected 'is_null' (T_STRING) in /home2/jasonbl7/public_html/cit230/presentation/index.php on line 52
+[02-Jan-2016 10:17:52 America/Denver] PHP Parse error:  syntax error, unexpected 'is_null' (T_STRING) in /home2/jasonbl7/public_html/cit230/presentation/index.php on line 52
+[02-Jan-2016 10:18:50 America/Denver] PHP Parse error:  syntax error, unexpected 'is_null' (T_STRING) in /home2/jasonbl7/public_html/cit230/presentation/index.php on line 52
+[02-Jan-2016 10:18:54 America/Denver] PHP Parse error:  syntax error, unexpected 'is_null' (T_STRING) in /home2/jasonbl7/public_html/cit230/presentation/index.php on line 52
+[02-Jan-2016 10:21:33 America/Denver] PHP Parse error:  syntax error, unexpected 'is_null' (T_STRING) in /home2/jasonbl7/public_html/cit230/presentation/index.php on line 52
+[02-Jan-2016 10:30:41 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'username'@'localhost' (using password: YES) in /home2/jasonbl7/public_html/cit230/includes/dataConn.php on line 7
+[02-Jan-2016 10:30:49 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'username'@'localhost' (using password: YES) in /home2/jasonbl7/public_html/cit230/includes/dataConn.php on line 7
+[02-Jan-2016 10:32:45 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /home2/jasonbl7/public_html/cit230/presentation/index.php on line 26
+[02-Jan-2016 10:33:18 America/Denver] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, object given in /home2/jasonbl7/public_html/cit230/presentation/index.php on line 26
+[02-Jan-2016 10:35:43 America/Denver] PHP Fatal error:  Non-static method mysqli::select_db() cannot be called statically in /home2/jasonbl7/public_html/cit230/presentation/index.php on line 23
+[02-Jan-2016 10:38:12 America/Denver] PHP Fatal error:  Call to undefined function dataConn_connect_errno() in /home2/jasonbl7/public_html/cit230/includes/dataConn.php on line 10
+[02-Jan-2016 10:44:25 America/Denver] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'jasonbl7_cit230'@'localhost' to database 'jasonbl7_cit230' in /home2/jasonbl7/public_html/cit230/presentation/index.php on line 23
+[02-Jan-2016 10:44:25 America/Denver] PHP Fatal error:  Call to undefined function dc_connect_errno() in /home2/jasonbl7/public_html/cit230/presentation/index.php on line 25
+[02-Jan-2016 11:47:41 America/Denver] PHP Notice:  Undefined property: mysqli::$query_error in /home2/jasonbl7/public_html/cit230/presentation/updateSubmissions.php on line 29
+[02-Jan-2016 11:48:35 America/Denver] PHP Notice:  Undefined property: mysqli::$query_error in /home2/jasonbl7/public_html/cit230/presentation/updateSubmissions.php on line 29
+[02-Jan-2016 11:48:40 America/Denver] PHP Notice:  Undefined property: mysqli::$query_error in /home2/jasonbl7/public_html/cit230/presentation/updateSubmissions.php on line 29
+[02-Jan-2016 11:49:13 America/Denver] PHP Notice:  Undefined property: mysqli::$query_error in /home2/jasonbl7/public_html/cit230/presentation/updateSubmissions.php on line 30
+[02-Jan-2016 11:49:59 America/Denver] PHP Notice:  Undefined property: mysqli::$query_error in /home2/jasonbl7/public_html/cit230/presentation/updateSubmissions.php on line 30
+[02-Jan-2016 11:50:11 America/Denver] PHP Notice:  Undefined property: mysqli::$query_error in /home2/jasonbl7/public_html/cit230/presentation/updateSubmissions.php on line 30
+[02-Jan-2016 11:52:19 America/Denver] PHP Notice:  Undefined property: mysqli::$query_error in /home2/jasonbl7/public_html/cit230/presentation/updateSubmissions.php on line 30
+[02-Jan-2016 11:53:15 America/Denver] PHP Fatal error:  Call to undefined function NOW() in /home2/jasonbl7/public_html/cit230/presentation/updateSubmissions.php on line 25
+[02-Jan-2016 11:54:37 America/Denver] PHP Fatal error:  Call to undefined function NOW() in /home2/jasonbl7/public_html/cit230/presentation/updateSubmissions.php on line 25
+[02-Jan-2016 11:54:47 America/Denver] PHP Fatal error:  Call to undefined function NOW() in /home2/jasonbl7/public_html/cit230/presentation/updateSubmissions.php on line 25
+[02-Jan-2016 11:56:16 America/Denver] PHP Notice:  Undefined property: mysqli::$query_error in /home2/jasonbl7/public_html/cit230/presentation/updateSubmissions.php on line 30
+[02-Jan-2016 11:57:06 America/Denver] PHP Fatal error:  Call to undefined function NOW() in /home2/jasonbl7/public_html/cit230/presentation/updateSubmissions.php on line 25
+[02-Jan-2016 11:59:42 America/Denver] PHP Fatal error:  Call to undefined function NOW() in /home2/jasonbl7/public_html/cit230/presentation/updateSubmissions.php on line 25
+[02-Jan-2016 12:12:20 America/Denver] PHP Notice:  Undefined index: topic in /home2/jasonbl7/public_html/cit230/presentation/updateSubmissions.php on line 28
+[12-Jan-2016 21:22:41 America/Denver] PHP Notice:  Undefined index: id in /home2/jasonbl7/public_html/cit230/presentation/update02.php on line 24
+[12-Jan-2016 21:22:41 America/Denver] PHP Notice:  Undefined index: student in /home2/jasonbl7/public_html/cit230/presentation/update02.php on line 25
+[12-Jan-2016 21:22:41 America/Denver] PHP Notice:  Undefined property: mysqli::$query_error in /home2/jasonbl7/public_html/cit230/presentation/update02.php on line 30
+[13-Jan-2016 23:35:16 America/Denver] PHP Notice:  Undefined index: id in /home2/jasonbl7/public_html/cit230/presentation/update02.php on line 24
+[13-Jan-2016 23:35:16 America/Denver] PHP Notice:  Undefined index: student in /home2/jasonbl7/public_html/cit230/presentation/update02.php on line 25
+[13-Jan-2016 23:35:16 America/Denver] PHP Notice:  Undefined property: mysqli::$query_error in /home2/jasonbl7/public_html/cit230/presentation/update02.php on line 30
+[14-Jan-2016 18:37:48 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/jasonbl7/public_html/cit230/presentation/viewAll.php on line 51
+[14-Jan-2016 18:37:48 America/Denver] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home2/jasonbl7/public_html/cit230/presentation/viewAll.php on line 62
+[15-Feb-2016 10:43:35 America/Denver] PHP Notice:  Undefined index: id in /home2/jasonbl7/public_html/cit230/presentation/update02.php on line 24
+[15-Feb-2016 10:43:35 America/Denver] PHP Notice:  Undefined index: student in /home2/jasonbl7/public_html/cit230/presentation/update02.php on line 25
+[15-Feb-2016 10:43:35 America/Denver] PHP Notice:  Undefined property: mysqli::$query_error in /home2/jasonbl7/public_html/cit230/presentation/update02.php on line 30
+[23-Feb-2016 16:57:41 America/Denver] PHP Notice:  Undefined index: id in /home2/jasonbl7/public_html/cit230/presentation/update01.php on line 24
+[23-Feb-2016 16:57:41 America/Denver] PHP Notice:  Undefined index: student in /home2/jasonbl7/public_html/cit230/presentation/update01.php on line 25
+[23-Feb-2016 16:57:41 America/Denver] PHP Notice:  Undefined property: mysqli::$query_error in /home2/jasonbl7/public_html/cit230/presentation/update01.php on line 30
+[23-Feb-2016 16:57:41 America/Denver] PHP Notice:  Undefined index: id in /home2/jasonbl7/public_html/cit230/presentation/update02.php on line 24
+[23-Feb-2016 16:57:41 America/Denver] PHP Notice:  Undefined index: student in /home2/jasonbl7/public_html/cit230/presentation/update02.php on line 25
+[23-Feb-2016 16:57:41 America/Denver] PHP Notice:  Undefined property: mysqli::$query_error in /home2/jasonbl7/public_html/cit230/presentation/update02.php on line 30
+[17-Mar-2016 12:57:54 America/Denver] PHP Notice:  Undefined index: id in /home2/jasonbl7/public_html/cit230/presentation/update02.php on line 24
+[17-Mar-2016 12:57:54 America/Denver] PHP Notice:  Undefined index: student in /home2/jasonbl7/public_html/cit230/presentation/update02.php on line 25
+[17-Mar-2016 12:57:54 America/Denver] PHP Notice:  Undefined property: mysqli::$query_error in /home2/jasonbl7/public_html/cit230/presentation/update02.php on line 30
+[10-Mar-2017 09:53:58 America/Denver] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home2/jasonbl7/public_html/cit230/apps/presentation/class01.php on line 6
+[10-Mar-2017 09:53:58 America/Denver] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home2/jasonbl7/public_html/cit230/apps/presentation/class01.php on line 6
+[10-Mar-2017 09:53:58 America/Denver] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home2/jasonbl7/public_html/cit230/apps/presentation/class01.php on line 61
+[10-Mar-2017 09:53:58 America/Denver] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home2/jasonbl7/public_html/cit230/apps/presentation/class01.php on line 61
+[10-Mar-2017 09:55:34 America/Denver] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home2/jasonbl7/public_html/cit230/apps/presentation/viewAll.php on line 6
+[10-Mar-2017 09:55:34 America/Denver] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home2/jasonbl7/public_html/cit230/apps/presentation/viewAll.php on line 6
+[10-Mar-2017 09:55:34 America/Denver] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home2/jasonbl7/public_html/cit230/apps/presentation/viewAll.php on line 99
+[10-Mar-2017 09:55:34 America/Denver] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home2/jasonbl7/public_html/cit230/apps/presentation/viewAll.php on line 99
+[01-Apr-2017 09:00:09 America/Denver] PHP Notice:  Undefined variable: result in /home2/jasonbl7/public_html/cit230/apis/presentation/serverCode.php on line 12
+[01-Apr-2017 09:00:09 America/Denver] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home2/jasonbl7/public_html/cit230/apis/presentation/serverCode.php on line 12
+[01-Apr-2017 09:01:17 America/Denver] PHP Notice:  Undefined variable: result in /home2/jasonbl7/public_html/cit230/apis/presentation/serverCode.php on line 12
+[01-Apr-2017 09:01:17 America/Denver] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home2/jasonbl7/public_html/cit230/apis/presentation/serverCode.php on line 12
+[01-Apr-2017 09:06:30 America/Denver] PHP Notice:  Undefined variable: result in /home2/jasonbl7/public_html/cit230/apis/presentation/serverCode.php on line 12
+[01-Apr-2017 09:06:30 America/Denver] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home2/jasonbl7/public_html/cit230/apis/presentation/serverCode.php on line 12
+[26-Jan-2018 19:18:06 America/Denver] PHP Warning:  include(../includes/head.php): failed to open stream: No such file or directory in /home2/jasonbl7/public_html/cit230/apps/presentations/section.php on line 6
+[26-Jan-2018 19:18:06 America/Denver] PHP Warning:  include(): Failed opening '../includes/head.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home2/jasonbl7/public_html/cit230/apps/presentations/section.php on line 6
+[26-Jan-2018 19:18:06 America/Denver] PHP Warning:  include(../includes/footer.php): failed to open stream: No such file or directory in /home2/jasonbl7/public_html/cit230/apps/presentations/section.php on line 61
+[26-Jan-2018 19:18:06 America/Denver] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home2/jasonbl7/public_html/cit230/apps/presentations/section.php on line 61

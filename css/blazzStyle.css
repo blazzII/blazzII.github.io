@@ -1,0 +1,254 @@
+﻿html {
+    font-size:100%;
+    font-family: Ubuntu, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height:100%;
+}
+
+body {
+    margin: 0;
+    background: #000; 
+    height: 100%;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 0;
+    letter-spacing: .3rem;
+}
+
+header {
+    
+    color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: table;
+}
+
+.blue {background: rgba(45,119,164,0.7);}
+.red {background: rgba(229,45,39,0.5); /* from YouTube Color Specifications - https://www.youtube.com/yt/brand/color.html */}
+
+header section {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header-logo {
+    float: left;
+    margin-left: 5px;
+    height:auto;
+}
+
+.header-logo-anchor:hover {
+    transform:rotate(270);
+}
+
+nav {
+    float: left;
+    margin-left: 260px;
+}
+
+nav ul {
+    
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 0px;
+    width: auto;
+    min-height: 100%;
+    height: auto;
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.20rem;
+    text-align: center;
+    width: auto;
+    height: auto;
+    min-width: 0%;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 45px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    text-decoration: none;
+    width: auto;
+    height: auto;
+}
+
+nav li a:hover {
+    background-color: #FF6365;
+    color:#fff;
+}
+
+
+main {
+    clear: both;
+    color:#fff;
+}
+
+footer {
+    height: 10%;
+    color: white;
+    width: 100%;
+    display: table;
+    position: fixed;
+    bottom: 0;
+    padding: 7px;
+    text-align: center;
+}
+
+footer section {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+footer a {
+    color:#fff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    overflow: hidden;
+    padding: 0px;
+    width: auto;
+    min-height: 100%;
+    height: auto;
+}
+
+nav li {
+    float: left;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.20rem;
+    text-align: center;
+    width: auto;
+    height: auto;
+    min-width: 0%;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 45px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    text-decoration: none;
+    width: auto;
+    height: auto;
+}
+
+nav li a:hover {
+    background-color: #FF6365;
+    color:#fff;
+}
+
+
+
+
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    /*background: url('http://www.jasonblazzard.com/videos/backWaterSking.mp4') no-repeat;*/
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+.wrapper {
+    width: 100%;
+    height:100%;
+    min-height:100%;
+    height: auto !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.message { 
+    font-family: Ubuntu, Consolas;
+    font-weight: 300; 
+    font-size: 1.2rem;
+    background: rgba(176,196,222,0.7);
+    color: #111;
+    margin: 2rem;
+    padding: 2rem;
+    width: 50%;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.messageButton { 
+    display: block;
+    width: 80%;
+    padding: .4rem;
+    border: none; 
+    margin: 1rem auto; 
+    font-size: 1.3rem;
+    background: rgba(255,255,255,0.23);
+    color: #fff;
+    border-radius: 3px; 
+    cursor: pointer;
+    transition: .3s background;
+}
+
+.messageButton button:hover { 
+   background: rgba(0,0,0,0.5);
+}
+
+.stopfade { 
+    opacity: .5;
+}
+
+/********************************************************** Graphing */
+
+.missionary {}
+.missionary ul {list-style-type:none;padding:0;}
+.missionary .data {
+    background: linear-gradient(to middle, transparent 30%, #aaa 1px);
+    float:right;
+    text-align:center;
+}
+.missionary .labels {
+    clear: both;
+    margin-left: 55px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 500px) { 
+    div{
+        width:70%;
+    } 
+    .message { display: none;}
+    .header-logo { display: none;}
+}
+@media screen and (max-width: 800px) {
+    .videoBackground { display: none; }
+    video {display:none;}
+    nav {
+        display:none;
+    }
+}

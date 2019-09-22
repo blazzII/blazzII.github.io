@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+html, body {
+  height: 100%;
+  line-height: 1.4;
+  font-size: 16px;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display:table-cell;
+  vertical-align: middle;
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+  max-width: 750px;
+  background-color: #bed;
+}

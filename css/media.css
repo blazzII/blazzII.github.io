@@ -28,7 +28,7 @@ video {
     bottom: 0;
     animation: seconds 1.0s backwards;
     animation-iteration-count: 1;
-    animation-delay: 15s;
+    animation-delay: 3s;
 }
 
 @keyframes seconds {

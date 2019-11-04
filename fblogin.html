@@ -15,11 +15,14 @@
         appId: '{527610501148018}',
         cookie: true,
         xfbml: true,
-        version: '{v5.0}'
+        version: '{v2.8}'
       });
 
       FB.AppEvents.logPageView();
 
+      FB.getLoginStatus(function (response) {
+        statusChangeCallback(response);
+      });
     };
 
     (function (d, s, id) {
@@ -32,6 +35,23 @@
       js.src = "https://connect.facebook.net/en_US/sdk.js";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
+
+    function statusChangeCallback(response) {
+      if (response.status === 'connected') {
+        console.log('Logged in and authenticated');
+        console.log(response.userID);
+
+      } else {
+        console.log('Not Authenticated');
+      }
+
+      function checkLoginState() {
+        FB.getLoginStatus(function (response) {
+          statusChangeCallback(response);
+        });
+      }
+
+    }
   </script>
   <main>
     <div>

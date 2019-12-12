@@ -1,0 +1,83 @@
+/* wes bos material */
+html {
+  box-sizing: border-box;
+  font-size: 12px;
+  background: #8E24AA;
+  background: linear-gradient(0deg,  #eee 0%,#bbb 20%,navy 100%);
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+
+.timer__controls {
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+
+form {
+  margin: 10px;
+}
+
+input {
+  border: 0;
+  padding: .5rem;
+}
+
+.timer__button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  background: rgba(0,0,0,0.1);
+  border-bottom: 3px solid rgba(0,0,0,0.2);
+  border-right: 1px solid rgba(0,0,0,0.2);
+  padding: 1rem;
+  font-family: 'Inconsolata', monospace;
+  border-radius: 3rem;
+}
+
+.timer__button:hover,
+.timer__button:focus {
+  background: rgba(0,0,0,0.2);
+  outline: 0;
+}
+
+.display {
+  margin: 1rem;
+  border: 1px solid #aaa;
+  padding: .5rem;
+  background-color: #fff;
+  width: fit-content;
+}
+
+.time {
+  font-weight: 100;
+  font-size: 5rem;
+  margin: 0;
+  color:#000;
+  text-shadow: 2px 2px 0 rgba(0,0,0,0.1);
+}
+
+.pause {
+  font-weight: 300;
+  font-size: 1.5rem;
+  padding: .5rem;
+}

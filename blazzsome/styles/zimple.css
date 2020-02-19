@@ -1,4 +1,4 @@
-﻿@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+﻿@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 body {
   font-size: 16px;
   font-family: Poppins, Arial, Helvetica, sans-serif;
@@ -36,10 +36,6 @@ p {
   margin: 0;
 }
 
-main {
-  margin-left: 2rem;
-}
-
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -59,10 +55,9 @@ section > p {
 }
 
 img {
-  width: auto;
-  max-width: 325px;
+  width: 100%
   box-shadow: 0 0 30px #777;
-  height: 200px;
+  height: auto;
   border: 1px solid #333;
 }
 

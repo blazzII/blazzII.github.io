@@ -23,36 +23,34 @@ document.addEventListener('DOMContentLoaded', () => {
     {name: 'hat', img: 'images/hat.svg'}
   ];
 
-cardArray.sort( () => 0.5 - Math.random());
+  cardArray.sort( () => 0.5 - Math.random());
 
-const grid = document.querySelector('.grid');
-const scoreDisplay = document.querySelector('#score');
-var cardsChosen = [];
-var cardsChosenId = [];
-var score = 0;
+  const grid = document.querySelector('.grid');
+  const scoreDisplay = document.querySelector('#score');
+  var cardsChosen = [];
+  var cardsChosenId = [];
+  var score = 0;
 
-
-function createBoard() {
-  for (let i = 0; i < cardArray.length; i++) {
-    let card = document.createElement('object');
-    card.setAttribute('class', 'card');
-    card.setAttribute('data', 'images/blank.svg');
-    card.setAttribute('data-id', i);
-    card.addEventListener('click', flipcard);
-    grid.appendChild(card);
+  function createBoard() {
+    for (let i = 0; i < cardArray.length; i++) {
+      let card = document.createElement('object');
+      card.setAttribute('class', 'card');
+      card.setAttribute('data', 'images/blank.svg');
+      card.setAttribute('data-id', i);
+      card.addEventListener('click', flipCard);
+      grid.appendChild(card);
+    }
   }
-}
 
-
-function flipcard() {
-  var cardId = this.getAttribute('data-id');
-  cardsChosen.push(cardArray[cardId].name);
-  cardsChosenId.push(cardId);
-  this.setAttribute('data', cardArray[cardId].img);
-  if (cardsChosen.length === 2) {
-    setTimeout(checkForMatch, 500);
+  function flipCard() {
+    let cardId = this.getAttribute('data-id');
+    cardsChosen.push(cardArray[cardId].name);
+    cardsChosenId.push(cardId);
+    this.setAttribute('data', cardArray[cardId].img);
+    if (cardsChosen.length === 2) {
+      setTimeout(checkForMatch, 500);
+    }
   }
-}
 
   function checkForMatch() {
     let cards = document.querySelectorAll('object');

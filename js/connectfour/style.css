@@ -28,35 +28,33 @@ h2 {
   text-align: center;
 }
 
-#score {
-  color: tomato;
-  font-weight: 700;
-}
-
-#time {
-  color: tomato;
-  font-weight: 700;
-}
-
 .grid {
   display: grid;
   border: 1px solid #bbb;
   grid-gap: 5px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   padding: 0.5rem;
   margin-top: 20px;
 }
 
-.square {
-  width: 200px;
-  height: 200px;
-  background-color: #fff;
+.grid div {
+  width: 40px;
+  height: 40px;
   padding: 0.5rem;
   border: 1px solid #ddd;
-  background: #eee;
 }
 
-.rat {
-  background-image: url('images/rat.png');
-  background-size: cover;
+.p1 {
+  background-color: tomato;
+  border-radius: 20px;
+}
+
+.p2 {
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+}
+
+.hidden {
+  display: none;
 }

@@ -33,36 +33,42 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function createBoard() {
     for (let i = 0; i < cardArray.length; i++) {
-      let card = document.createElement('object');
+      let cardImage = document.createElement('img');
+      cardImage.setAttribute('src', 'images/blank.svg');
+      cardImage.setAttribute('alt', 'Match Me Card Image');
+      cardImage.setAttribute('data-id', i);
+      cardImage.addEventListener('click', flipCard);
+
+      let card = document.createElement('div');
       card.setAttribute('class', 'card');
-      card.setAttribute('data', 'images/blank.svg');
-      card.setAttribute('data-id', i);
-      card.addEventListener('click', flipCard);
+      card.append(cardImage);
       grid.appendChild(card);
     }
   }
 
   function flipCard() {
     let cardId = this.getAttribute('data-id');
-    cardsChosen.push(cardArray[cardId].name);
-    cardsChosenId.push(cardId);
-    this.setAttribute('data', cardArray[cardId].img);
-    if (cardsChosen.length === 2) {
-      setTimeout(checkForMatch, 500);
+    if (cardId !== cardsChosenId[0]) {
+      cardsChosen.push(cardArray[cardId].name);
+      cardsChosenId.push(cardId);
+      this.setAttribute('src', cardArray[cardId].img);
+      if (cardsChosen.length === 2) {
+        setTimeout(checkForMatch, 500);
+      }
     }
   }
 
   function checkForMatch() {
-    let cards = document.querySelectorAll('object');
+    let cards = document.querySelectorAll('img');
     const optionOneId = cardsChosenId[0];
     const optionTwoId = cardsChosenId[1];
     if (cardsChosen[0] === cardsChosen[1]) {
-      alert ('🎉You found a match!');
-      // cards[optionOneId].setAttribute('data', cardsChosen);
+      cards[optionOneId].parentElement.style.backgroundColor = "tomato";
+      cards[optionTwoId].parentElement.style.backgroundColor = "tomato";
       score++;
     } else {
-      cards[optionOneId].setAttribute('data', 'images/blank.svg');
-      cards[optionTwoId].setAttribute('data', 'images/blank.svg');
+      cards[optionOneId].setAttribute('src', 'images/blank.svg');
+      cards[optionTwoId].setAttribute('src', 'images/blank.svg');
     }
     cardsChosen = [];
     cardsChosenId = [];

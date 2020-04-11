@@ -30,6 +30,7 @@ function countDown() {
     square.forEach(className => {
       className.classList.remove('rat');
     });
+    // removeEventListener
   }
 }
 

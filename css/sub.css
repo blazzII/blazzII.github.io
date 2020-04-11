@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.9);
+  margin: 0;
+  color: white;
+}
+
+nav {
+  background: rgba(0, 0, 0, 0.95);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 1.5rem;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+}
+
+nav ul li a:hover {
+  color: #000;
+  font-weight: 700;
+  box-shadow: 0 0 15px #333;
+  background-color: #fff;
+}
+
+nav ul li:first-child {
+  margin-right: 25px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: rgba(255, 255, 255, 0.95);
+  text-align: center;
+  margin: 4rem 1rem 1rem;
+}
+
+h2 {
+  color: yellowgreen;
+}
+
+h3 {
+  border-bottom: 1px solid yellowgreen;
+  margin-bottom: 0.5rem;
+}
+
+a,
+a:visited {
+  color: tomato;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+main ul li {
+  padding: 3px;
+}
+
+main ul li a {
+  text-decoration: none;
+}
+aside {
+  margin: 1rem auto;
+  width: 90%;
+  border: 1px solid #fff;
+  font-size: 0.9rem;
+  padding: 1rem;
+}

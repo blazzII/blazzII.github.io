@@ -26,12 +26,17 @@ document.addEventListener('DOMContentLoaded', () => {
   cardArray.sort( () => 0.5 - Math.random());
 
   const grid = document.querySelector('.grid');
-  const scoreDisplay = document.querySelector('#score');
+  const message = document.querySelector('#message');
+  const timeDisplay = document.querySelector('#time');
+  const bestTime = document.querySelector('#bestTime');
   var cardsChosen = [];
   var cardsChosenId = [];
   var score = 0;
+  var seconds = 0;
+  var gameTimer;
 
   function createBoard() {
+    clearInterval(seconds);
     for (let i = 0; i < cardArray.length; i++) {
       let cardImage = document.createElement('img');
       cardImage.setAttribute('src', 'images/blank.svg');
@@ -44,6 +49,26 @@ document.addEventListener('DOMContentLoaded', () => {
       card.append(cardImage);
       grid.appendChild(card);
     }
+
+    // set up the timer callback function to run every second
+    gametimer = setInterval(() => {
+      seconds++;
+      updateTime(seconds);
+    }, 1000);
+
+    // get best time from box
+    if (localStorage.getItem('matchMeBestTime')) {
+      bestTime.textContent = `Time to Beat: ${localStorage.getItem('matchMeBestTime')} seconds`;
+    } else {
+      bestTime.textContent = `Time to Beat: New Game`;
+    }
+  }
+
+  function updateTime(seconds) {
+    let minutes = Math.floor(seconds / 60);
+    let remainderSeconds = seconds % 60;
+    let display = `${minutes}:${remainderSeconds < 10 ? '0' : '' }${remainderSeconds}`;
+    timeDisplay.textContent = display;
   }
 
   function flipCard() {
@@ -72,10 +97,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     cardsChosen = [];
     cardsChosenId = [];
-    scoreDisplay.textContent = score;
+    //scoreDisplay.textContent = score;
 
     if (score === cardArray.length/2) {
-      scoreDisplay.textContent = 'Completed!';
+      message.textContent = 'Completed!';
+      clearInterval(gametimer);
+      localStorage.setItem('matchMeBestTime', seconds);
     }
   }
 

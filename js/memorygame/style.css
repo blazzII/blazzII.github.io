@@ -30,11 +30,26 @@ h2 {
   align-items: center;
 }
 
+div {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
 #message {
   color: tomato;
   font-weight: 700;
   font-size: 1rem;
   animation: pulse 1s linear infinite;
+  margin: 0.25rem;
+  border: 1px solid #ded;
+  background-color: #bed;
+  padding: 0.25rem;
+  width: 94%;
+  text-align: center;
+}
+
+#reset {
+  display: none;
+  padding: 0.5rem;
 }
 
 @keyframes pulse {
@@ -50,12 +65,16 @@ h2 {
 }
 
 #time {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+}
+
+#bestTime {
+  font-size: smaller;
+  margin-bottom: 0.5rem;
 }
 
 .grid {
   display: grid;
-  border: 1px solid #bbb;
   grid-gap: 2px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 0.25rem;
@@ -82,7 +101,11 @@ h2 {
   .card {
     width: 100px;
     height: 100px;
-    padding: 0.25rem;
+    padding: 0.75rem;
+  }
+
+  #message {
+    max-width: 300px;
   }
 
   h2 {

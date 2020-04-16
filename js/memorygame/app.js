@@ -29,6 +29,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const message = document.querySelector('#message');
   const timeDisplay = document.querySelector('#time');
   const bestTime = document.querySelector('#bestTime');
+  const btnReset = document.querySelector('#reset');
+
   var cardsChosen = [];
   var cardsChosenId = [];
   var score = 0;
@@ -103,6 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
       message.textContent = 'Completed!';
       clearInterval(gametimer);
       localStorage.setItem('matchMeBestTime', seconds);
+      btnReset.style.display = 'block';
     }
   }
 

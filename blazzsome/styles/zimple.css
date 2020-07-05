@@ -1,4 +1,5 @@
 ﻿@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
 body {
   font-size: 16px;
   font-family: Poppins, Arial, Helvetica, sans-serif;
@@ -50,7 +51,8 @@ section {
   flex-direction: column;
   align-items: center;
 }
-section > p {
+
+section>p {
   min-height: 60px;
 }
 
@@ -61,7 +63,7 @@ img {
   border: 1px solid #333;
 }
 
-li > img {
+li>img {
   width: auto;
   height: 30px;
 }
@@ -71,32 +73,39 @@ footer {
   padding: 20px;
 }
 
-.caption {
+.key {
   position: absolute;
-  top: 1.5rem;
-  right: 2rem;
+  top: .5rem;
+  right: 3rem;
+}
+
+.key h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.caption {
   border: 1px solid #ccc;
   background-color: lightyellow;
-  padding: 0.25rem;
+  padding: 0.35rem;
   display: grid;
-  align-items: center;aaaaaaa
+  align-items: center;
   grid-template-columns: 1rem 1fr;
 }
 
 .caption h6 {
-  position: absolute;
-  top: -2.3rem;
-  left: -0.25rem;
+  grid-columns: 1/3;
 }
 
-.caption > div {
+.caption>div {
   width: 0.75rem;
   height: 0.75rem;
   border: 1px solid #bbb;
 }
 
-.caption > p {
+.caption>p {
   font-size: 0.75rem;
+  padding-left: .5rem;
 }
 
 .most {

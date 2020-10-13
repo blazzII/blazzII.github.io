@@ -36,6 +36,8 @@ document.addEventListener('DOMContentLoaded', () => {
   var score = 0;
   var seconds = 0;
   var gameTimer;
+   // initialize sound files
+   var nomatch = new sound('../media/error.mp3');
 
   function createBoard() {
     clearInterval(seconds);
@@ -64,6 +66,8 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       bestTime.textContent = `Time to Beat: New Game`;
     }
+
+
   }
 
   function updateTime(seconds) {
@@ -96,6 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       cards[optionOneId].setAttribute('src', 'images/blank.svg');
       cards[optionTwoId].setAttribute('src', 'images/blank.svg');
+      nomatch.play();
     }
     cardsChosen = [];
     cardsChosenId = [];

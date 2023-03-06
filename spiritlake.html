@@ -1,40 +1,38 @@
 ﻿<!DOCTYPE html>
 <html>
-  <head>
-    <title>Video Background Example</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="styles/specialBackground.css"
-      type="text/css"
-      rel="stylesheet"
-    />
 
-    <script>
-      // get the document elements
-      var videoElement = document.getElementById('videoBackground');
-      var pauseButton = document.querySelector('.messageButton button');
-      function videoFade() {
-        videoElement.classList.add('stopfade');
-      }
-      videoElement.addEventListener('ended', function () {
-        videoElement.pause();
-        videoFade(); // some issues with new IE browser
-      });
-    </script>
-  </head>
+<head>
+  <title>Video Background Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles/specialBackground.css" type="text/css" rel="stylesheet">
 
-  <body>
-    <video id="videoBackground" autoplay poster="media/backWaterSking.mp4">
-      <source src="media/backWaterSking.mp4" type="video/mp4" />
-    </video>
-    <div class="message">
-      <h1>Spirit Lake Idaho</h1>
-      <h2>A Family Reunion - An American Assembly</h2>
-      <p>
-        A summer evening as the sun goes down by the island on the west end of
-        Idaho's Spirit Lake.
-      </p>
-    </div>
-  </body>
+  <script>
+    // get the document elements
+    var videoElement = document.getElementById('videoBackground');
+    var pauseButton = document.querySelector('.messageButton button');
+    function videoFade() {
+      videoElement.classList.add('stopfade');
+    }
+    videoElement.addEventListener('ended', function () {
+      videoElement.pause();
+      videoFade(); // some issues with new IE browser
+    });
+  </script>
+</head>
+
+<body>
+  <video id="videoBackground" autoplay poster="media/backWaterSking.mp4">
+    <source src="media/backWaterSking.mp4" type="video/mp4">
+  </video>
+  <div class="message">
+    <h1>Spirit Lake Idaho</h1>
+    <h2>A Family Reunion - An American Assembly</h2>
+    <p>
+      A summer evening as the sun goes down by the island on the west end of
+      Idaho's Spirit Lake.
+    </p>
+  </div>
+</body>
+
 </html>

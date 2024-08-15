@@ -1,32 +1,36 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en-US">
 
 <head>
-  <title>Video Background Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="styles/specialBackground.css" type="text/css" rel="stylesheet">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <meta property="fb:pages" content="124436167285">
+  <meta property="og:title" content="Blazzard .:|:. Jason Bruce">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.jasonblazzard.com/">
+  <meta property="og:image" content="https://blazzii.github.io/images/ziper.jpg">
 
-  <script>
-    // get the document elements
-    var videoElement = document.getElementById('videoBackground');
-    var pauseButton = document.querySelector('.messageButton button');
-    function videoFade() {
-      videoElement.classList.add('stopfade');
-    }
-    videoElement.addEventListener('ended', function () {
-      videoElement.pause();
-      videoFade(); // some issues with new IE browser
-    });
-  </script>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+
+
+  <meta name="description" content="This working site is the home of .:|:. blazzard">
+  <title>Spirit Lake Idaho | Blazzard</title>
 </head>
 
 <body>
-  <video id="videoBackground" autoplay poster="media/backWaterSking.mp4">
-    <source src="media/backWaterSking.mp4" type="video/mp4">
-  </video>
+  <h1>Spirit Lake Idaho</h1>
+  <div class="video-grid">
+    <video id="zback" poster="images/ziper-400.jpg" autoplay muted>
+      <source src="media/backWaterSking.mp4" type="video/mp4">
+    </video>
+  </div>
   <div class="message">
-    <h1>Spirit Lake Idaho</h1>
     <h2>A Family Reunion - An American Assembly</h2>
     <p>
       A summer evening as the sun goes down by the island on the west end of

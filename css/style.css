@@ -9,8 +9,20 @@ body {
     background-color: rgba(0, 0, 0, .85);
 }
 
-h1, h2, h3, h4, h5, h6, strong {
-    font-family: "Lilita One", sans-serif;;
+.wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+    font-family: "Lilita One", sans-serif;
+    ;
 }
 
 h1 {
@@ -23,24 +35,24 @@ h1 {
 }
 
 #menu {
-	font-size: 1.5rem;
-	border: 0;
-	background: none;
-	color: #fff;
-	position: absolute;
-	top: .5rem;
-	right: 1rem;
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #fff;
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
 }
 
 #menu::before {
-	content: "☰";
+    content: "☰";
 }
 
 #menu.open::before {
-	content: "❎";
+    content: "❌";
 }
 
-.links  {
+.links {
     background-color: #fff;
     color: #000;
     display: flex;
@@ -56,7 +68,9 @@ h1 {
     text-align: center;
     text-decoration: none;
     padding: 1rem;
-    color: rgba(0, 0, 0, 1)
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 900;
 }
 
 .links a:hover {
@@ -67,11 +81,11 @@ h1 {
 }
 
 .open a {
-	display: block;
+    display: block;
 }
 
 main ul {
-    margin: 1rem;
+    margin: 1rem 3rem;
     padding: 1rem;
     line-height: 1.5;
     list-style-type: disc;
@@ -80,6 +94,11 @@ main ul {
 
 main ul a {
     color: #fff;
+    text-decoration: none;
+}
+
+main ul a:hover {
+    color: #f5f500;
     text-decoration: none;
 }
 
@@ -104,8 +123,9 @@ q {
 }
 
 footer {
-    width: 100vw;
     position: fixed;
+    left: 0;
+    right: 0;
     bottom: 1rem;
     font-size: .85rem;
     text-align: center;
@@ -113,7 +133,7 @@ footer {
 }
 
 @media (min-width: 600px) {
-    
+
     #menu {
         display: none;
     }
@@ -121,7 +141,7 @@ footer {
     .links {
         flex-direction: row;
     }
-    
+
     .links a {
         display: block;
         flex: 1 1 100%;

@@ -56,6 +56,10 @@ main>p {
   margin: 2rem 1rem;
 }
 
+.grid details {
+  width: 95%;
+}
+
 .larger {
   font-weight: 700;
 }

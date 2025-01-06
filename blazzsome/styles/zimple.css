@@ -16,7 +16,11 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
-  color: #bbb;
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / .1);
+  padding: .5rem;
+  background-color: navy;
+  color: #fff;
 }
 
 h3 {

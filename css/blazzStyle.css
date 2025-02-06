@@ -1,4 +1,10 @@
-﻿html {
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
     font-size: 100%;
     font-family: Ubuntu, 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
     height: 100%;
@@ -19,6 +25,11 @@ h1 {
 
 h2 {
     font-size: 2rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
 
 header {
@@ -44,90 +55,8 @@ header section {
     background: rgba(229, 45, 39, 0.5);
 }
 
-/* from YouTube Color Specifications - https://www.youtube.com/yt/brand/color.html */
-
 .header-logo-anchor:hover {
     transform: rotate(270);
-}
-
-
-
-nav {
-
-    float: left;
-
-    margin-left: 260px;
-}
-
-nav ul {
-    margin: 0px auto;
-    overflow: hidden;
-    padding: 0px;
-    width: auto;
-    min-height: 100%;
-    height: auto;
-}
-
-
-
-nav li {
-
-    list-style-type: none;
-
-    float: left;
-
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-
-    font-style: normal;
-
-    font-weight: 700;
-
-    font-size: 1.20rem;
-
-    text-align: center;
-
-    width: auto;
-
-    height: auto;
-
-    min-width: 0%;
-
-}
-
-
-
-nav li a {
-
-    display: block;
-
-    color: #fff;
-
-    text-align: center;
-
-    padding-top: 30px;
-
-    padding-right: 45px;
-
-    padding-left: 40px;
-
-    padding-bottom: 30px;
-
-    text-decoration: none;
-
-    width: auto;
-
-    height: auto;
-
-}
-
-
-
-nav li a:hover {
-
-    background-color: #FF6365;
-
-    color: #fff;
-
 }
 
 main {

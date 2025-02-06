@@ -3,3 +3,9 @@ facdev
 .vscode
 formhandle
 _nopub
+node_modules
+pubspec.lock
+pubspec.yaml
+web
+```
+

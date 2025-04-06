@@ -21,7 +21,7 @@ h1 {
 h2 {
   font-size: 1.5rem;
   margin: 1rem;
-  border: 1px solid rgb(0 0 0 / .1);
+  border: 1px solid rgb(0 0 0 / 10%);
   padding: .5rem;
   background-color: navy;
   color: #fff;
@@ -40,17 +40,19 @@ h4 {
 
 header {
   padding: 1rem;
-  background-color: navy;
+  background-color: rgb(15 15 100 / 100%);
   color: #fff;
 }
 
 aside
 {
   margin: 1rem;
-  border-right: 1px solid #555;
+  border: 1px solid rgb(0 0 0 / 10%);
   padding: 1rem;
-  background-color: #bbb;
+  background-color: rgb(15  15 100 / 80%);  
+  color: white;
 }
+
 main>p {
   margin: 2rem;
   font-size: 1.4rem;

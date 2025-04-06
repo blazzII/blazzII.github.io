@@ -5,13 +5,17 @@
 }
 
 body {
-  font-size: 16px;
-  font-family: "Montserrat", Helvetica, sans-serif;
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
 }
 
 h1 {
-  font-family: "Dancing Script", cursive;
   font-size: 3rem;
+  text-align: center;
 }
 
 h2 {
@@ -49,7 +53,6 @@ aside
 }
 main>p {
   margin: 2rem;
-  font-family: Dancing Script, cursive;
   font-size: 1.4rem;
   line-height: 1.5;
 }

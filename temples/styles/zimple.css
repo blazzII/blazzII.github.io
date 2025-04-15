@@ -5,19 +5,23 @@
 }
 
 body {
-  font-size: 16px;
-  font-family: "Montserrat", Helvetica, sans-serif;
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
 }
 
 h1 {
-  font-family: "Dancing Script", cursive;
   font-size: 3rem;
+  text-align: center;
 }
 
 h2 {
   font-size: 1.5rem;
   margin: 1rem;
-  border: 1px solid rgb(0 0 0 / .1);
+  border: 1px solid rgb(0 0 0 / 10%);
   padding: .5rem;
   background-color: navy;
   color: #fff;
@@ -36,20 +40,21 @@ h4 {
 
 header {
   padding: 1rem;
-  background-color: navy;
+  background-color: rgb(15 15 100 / 100%);
   color: #fff;
 }
 
 aside
 {
   margin: 1rem;
-  border-right: 1px solid #555;
+  border: 1px solid rgb(0 0 0 / 10%);
   padding: 1rem;
-  background-color: #bbb;
+  background-color: rgb(15  15 100 / 80%);  
+  color: white;
 }
+
 main>p {
   margin: 2rem;
-  font-family: Dancing Script, cursive;
   font-size: 1.4rem;
   line-height: 1.5;
 }

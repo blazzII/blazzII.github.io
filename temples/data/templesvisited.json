@@ -1,66 +1,66 @@
 [
   {
-  "name": "Seattle Washington",
-  "number": "21",
-  "yearvisited": "1991",
-  "churchURL": "https://www.churchofjesuschrist.org/temples/details/seattle-washington-temple",
-  "ricksatterfield": "https://churchofjesuschristtemples.org/seattle-washington-temple/",
-  "imageurl": "https://assets.ldscdn.org/72/14/7214efb047426ffe6b581906fa0092a624ebc637/seattle_washington_temple_exterior.jpg",
-  "ordinances": [
-    "Baptism",
-    "Confirmation",
-    "Endowment",
-    "Live Initiatory",
-    "Live Endowment",
-    "Live Sealing"
-  ]
+    "name": "Seattle Washington",
+    "imageurl": "https://assets.ldscdn.org/72/14/7214efb047426ffe6b581906fa0092a624ebc637/seattle_washington_temple_exterior.jpg"
   },
   {
-  "name": "Oakland California",
-  "number": "13",
-  "yearvisited": "1991",
-  "churchURL": "https://www.churchofjesuschrist.org/temples/details/oakland-california-temple",
-  "ricksatterfield": "https://churchofjesuschristtemples.org/oakland-california-temple/",
-  "imageurl":"https://assets.ldscdn.org/83/16/831688ef82fcab202e941ed8fd5869b28f9b5db11086883/oakland_california_temple_exterior.jpeg",
-  "ordinances" : ["endowment", "Live Sealing"] 
-},
+    "name": "Oakland California",
+    "imageurl": "https://assets.ldscdn.org/83/16/831688ef82fcab202e941ed8fd5869b28f9b5db11086883/oakland_california_temple_exterior.jpeg"
+  },
   {
-  "name": "San Diego California",
-  "number": "14",
-  "yearvisited": "1991",
-  "churchURL": "https://www.churchofjesuschrist.org/temples/details/san-diego-california-temple",
-  "ricksatterfield": "https://churchofjesuschristtemples.org/san-diego-california-temple/",
-  "imageurl":"https://assets.ldscdn.org/83/16/831688ef82fcab202e941ed8fd5869b28f9b5db11086883/san_diego_california_temple_exterior.jpeg",
-  "ordinances" : ["endowment", "Live Sealing"] 
-},
-{
-  "name": "Los Angeles California",
-  "number": "12",
-  "visited": true,
-  "yearvisited": "1991",
-  "churchURL": "https://www.churchofjesuschrist.org/temples/details/los-angeles-california-temple",
-  "ricksatterfield": "https://churchofjesuschristtemples.org/los-angeles-california-temple/",
-  "imageurl":"https://assets.ldscdn.org/83/16/831688ef82fcab202e941ed8fd5869b28f9b5db11086883/los_angeles_california_temple_exterior.jpeg",
-  "ordinances" : ["endowment", "Live Sealing"] 
-},
-{
-  "name": "Washington D.C.",
-  "number": "",
-  "visited": false,
-  "yearvisited": "",
-  "churchURL": "",
-  "ricksatterfield": "",
-  "imageurl":"",
-  "ordinances" : ["endowment", "Live Sealing"] 
-},
-{
-  "name": "",
-  "number": "",
-  "visited": false,
-  "yearvisited": "",
-  "churchURL": "",
-  "ricksatterfield": "",
-  "imageurl":"",
-  "ordinances" : [] 
-}
+    "name": "Newport Beach California",
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/newport-beach-california/800x500/newport-beach-temple-lds-917306-wallpaper.jpg"
+  },
+  {
+    "name": "Los Angeles California",
+    "imageurl": "https://assets.ldscdn.org/83/16/831688ef82fcab202e941ed8fd5869b28f9b5db11086883/los_angeles_california_temple_exterior.jpeg"
+  },
+  {
+    "name": "Las Vegas Nevada",
+    "imageurl": "https://assets.ldscdn.org/83/16/831688ef82fcab202e941ed8fd5869b28f9b5db11086883/las_vegas_nevada_temple_exterior.jpeg"
+  },
+  {
+    "name": "Washington D.C.",
+    "imageurl": "https://assets.ldscdn.org/83/16/831688ef82fcab202e941ed8fd5869b28f9b5db11086883/washington_dc_temple_exterior.jpeg"
+  },
+  {
+    "name": "Salt Lake City Utah",
+    "imageurl": "https://assets.ldscdn.org/83/16/831688ef82fcab202e941ed8fd5869b28f9b5db11086883/salt_lake_city_utah_temple_exterior.jpeg"
+  },
+  {   "name": "Provo Utah",
+    "imageurl": "https://assets.ldscdn.org/83/16/831688ef82fcab202e941ed8fd5869b28f9b5db11086883/provo_utah_temple_exterior.jpeg"
+  },
+  {
+    "name": "Montpelier Idaho",
+    "imageurl": "https://assets.ldscdn.org/83/16/831688efb047426ffe6b581906fa0092a624ebc637/montpelier_idaho_temple_exterior.jpg"
+  },
+  {
+    "name": "Idaho Falls Idaho",
+    "imageurl": "https://assets.ldscdn.org/83/16/831688ef82fcab202e941ed8fd5869b28f9b5db11086883/idaho_falls_idaho_temple_exterior.jpeg"
+  },
+  {
+    "name": "Boise Idaho",
+    "imageurl": "https://assets.ldscdn.org/83/16/831688ef82fcab202e941ed8fd5869b28f9b5db11086883/boise_idaho_temple_exterior.jpeg"
+  },
+  {
+    "name": "Billings Montana",
+    "imageurl": "https://assets.ldscdn.org/83/16/831688ef82fcab202e941ed8fd5869b28f9b5db11086883/billings_montana_temple_exterior.jpeg"
+  },
+  {
+    "name": "Denver Colorado",
+    "imageurl": "https://assets.ldscdn.org/83/16/831688ef82fcab202e941ed8fd5869b28f9b5db11086883/denver_colorado_temple_exterior.jpeg"
+  },
+  {
+    "name": "Phoenix Arizona",
+    "imageurl": "https://assets.ldscdn.org/83/16/831688ef82fcab202e941ed8fd5869b28f9b5db11086883/phoenix_arizona_temple_exterior.jpeg"
+  },
+  {
+    "name": "Tucson Arizona",
+    "imageurl": "https://assets.ldscdn.org/83/16/831688ef82fcab202e941ed8fd5869b28f9b5db11086883/tucson_arizona_temple_exterior.jpeg"
+  },
+  {
+    "name": "Albuquerque New Mexico",
+    "imageurl": "https://assets.ldscdn.org/83/16/831688ef82fcab202e941ed8fd5869b28f9b5db11086883/albuquerque_new_mexico_temple_exterior.jpeg"
+  }
+  
 ]

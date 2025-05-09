@@ -1,0 +1,66 @@
+[
+  {
+  "name": "Seattle Washington",
+  "number": "21",
+  "yearvisited": "1991",
+  "churchURL": "https://www.churchofjesuschrist.org/temples/details/seattle-washington-temple",
+  "ricksatterfield": "https://churchofjesuschristtemples.org/seattle-washington-temple/",
+  "imageurl": "https://assets.ldscdn.org/72/14/7214efb047426ffe6b581906fa0092a624ebc637/seattle_washington_temple_exterior.jpg",
+  "ordinances": [
+    "Baptism",
+    "Confirmation",
+    "Endowment",
+    "Live Initiatory",
+    "Live Endowment",
+    "Live Sealing"
+  ]
+  },
+  {
+  "name": "Oakland California",
+  "number": "13",
+  "yearvisited": "1991",
+  "churchURL": "https://www.churchofjesuschrist.org/temples/details/oakland-california-temple",
+  "ricksatterfield": "https://churchofjesuschristtemples.org/oakland-california-temple/",
+  "imageurl":"https://assets.ldscdn.org/83/16/831688ef82fcab202e941ed8fd5869b28f9b5db11086883/oakland_california_temple_exterior.jpeg",
+  "ordinances" : ["endowment", "Live Sealing"] 
+},
+  {
+  "name": "San Diego California",
+  "number": "14",
+  "yearvisited": "1991",
+  "churchURL": "https://www.churchofjesuschrist.org/temples/details/san-diego-california-temple",
+  "ricksatterfield": "https://churchofjesuschristtemples.org/san-diego-california-temple/",
+  "imageurl":"https://assets.ldscdn.org/83/16/831688ef82fcab202e941ed8fd5869b28f9b5db11086883/san_diego_california_temple_exterior.jpeg",
+  "ordinances" : ["endowment", "Live Sealing"] 
+},
+{
+  "name": "Los Angeles California",
+  "number": "12",
+  "visited": true,
+  "yearvisited": "1991",
+  "churchURL": "https://www.churchofjesuschrist.org/temples/details/los-angeles-california-temple",
+  "ricksatterfield": "https://churchofjesuschristtemples.org/los-angeles-california-temple/",
+  "imageurl":"https://assets.ldscdn.org/83/16/831688ef82fcab202e941ed8fd5869b28f9b5db11086883/los_angeles_california_temple_exterior.jpeg",
+  "ordinances" : ["endowment", "Live Sealing"] 
+},
+{
+  "name": "Washington D.C.",
+  "number": "",
+  "visited": false,
+  "yearvisited": "",
+  "churchURL": "",
+  "ricksatterfield": "",
+  "imageurl":"",
+  "ordinances" : ["endowment", "Live Sealing"] 
+},
+{
+  "name": "",
+  "number": "",
+  "visited": false,
+  "yearvisited": "",
+  "churchURL": "",
+  "ricksatterfield": "",
+  "imageurl":"",
+  "ordinances" : [] 
+}
+]

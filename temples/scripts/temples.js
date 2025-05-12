@@ -1,5 +1,7 @@
 // Fetch the templesvisited.json file and display each temple
 async function getTemples() {
+  let count = 0;
+  // Fetch the JSON file
   try {
     const response = await fetch('data/templesvisited.json');
     if (!response.ok) {
@@ -43,6 +45,8 @@ async function getTemples() {
       // Append the section to the container
       templeContainer.appendChild(section);
 
+      count++;
+      document.getElementById('count').textContent = count;
     });
   } catch (error) {
     console.error('Error fetching temples:', error);
@@ -60,5 +64,6 @@ function generateTempleLinks(name) {
   
   return { church, thirdparty };
 }
+
 
 getTemples();

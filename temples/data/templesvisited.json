@@ -56,6 +56,14 @@
     "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mesa-arizona/800x500/mesa_arizona_temple_main.jpeg"
   },
   {
+    "name": "Las Vegas Nevada",
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/las-vegas-nevada/800x500/las-vegas-temple-lds-758757-wallpaper.jpg"
+  },
+  {
+    "name": "Brigham City Utah",
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/brigham-city-utah/800x500/brigham-city-temple-lds-1027480-wallpaper.jpg"
+  },
+  {
     "name": "Payson Utah",
     "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/800x500/payson-utah-temple-daylight-1416668-wallpaper.jpg"
   },
@@ -67,6 +75,7 @@
     "name": "Manti Utah",
     "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/800x500/manti-temple-766504-wallpaper.jpg"
   },
+  
   {
     "name": "Logan Utah",
     "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/logan-utah/800x500/logan-temple-768087-wallpaper.jpg"
@@ -79,10 +88,13 @@
     "name": "Red Cliffs Utah",
     "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/red-cliffs-utah-temple/red-cliffs-utah-temple-44639.jpg"
   },
-  
   {
     "name": "Mount Timpanogos Utah",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/montpelier-idaho/800x500/montpelier-temple-lds-1059081-wallpaper.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mount-timpanogos-utah/800x500/mount-timpanogos-temple-lds-885511-wallpaper.jpg"
+  },
+  {
+    "name": "Paris France",
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/paris-france/800x500/paris-france-temple-exterior-1905503.jpg"
   },
   {
     "name": "Cedar City Utah",
@@ -93,16 +105,16 @@
     "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/oquirrh-mountain-utah/800x500/oquirrh-mountain-temple-766478-tablet.jpg"
   },
   {
-    "name": "Paris France",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/paris-france/800x500/paris-france-temple-exterior-1905503.jpg"
+    "name": "Moses Lake Washington",
+    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/moses-lake-washington-temple/moses-lake-washington-temple-39202.jpg"
+  },
+  {
+    "name": "Rexburg Idaho",
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/rexburg-idaho/800x500/rexburg-idaho-mormon-temple-854835-wallpaper.jpg"
   },
   {
     "name": "Meridian Idaho",
     "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/meridian-idaho/400x225/meridian-idaho-1962625.jpg"
-  },
-  {
-    "name": "Las Vegas Nevada - og",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/las-vegas-nevada/800x500/las-vegas-temple-lds-758757-wallpaper.jpg"
   },
   {
     "name": "Saratoga Springs Utah",
@@ -113,10 +125,20 @@
     "imageurl": "https://www.churchofjesuschrist.org/imgs/9211850c386811ee9ad4eeeeac1e0f2a48fcfbb6/full/320%2C/0/default"
   },
   {
+    "name": "Taylorsville Utah",
+    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/taylorsville-utah-temple/taylorsville-utah-temple-46894.jpg"
+  },
+  { "name": "Vernal Utah",
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/vernal-utah/800x500/vernal-temple-lds-1078594-wallpaper.jpg"
+  },
+  {
     "name": "Tegucigalpa Honduras",
     "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/tegucigalpa-honduras/800x500/tegucigalpa-honduras-temple-rendering-1063891-wallpaper.jpg"
   },
-  
+  {
+    "name": "Ogden Utah",
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/ogden-utah/800x500/ogden-utah-temple-1300442-wallpaper.jpg"
+  },
   {
     "name": "Frankfurt Germany",
     "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/frankfurt-germany/800x500/frankfurt-temple-1-2278179.jpg"
@@ -150,8 +172,8 @@
     "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/pheonix-arizona/2018/800x500/Phoenix-Arizona-Temple-4-1300737.jpg"
   },
   {
-    "name": "Las Vegas Nevada",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/las-vegas-nevada/800x500/las-vegas-temple-lds-758757-wallpaper.jpg"
+    "name": "Deseret Peak Utah",
+    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/deseret-peak-utah-temple/deseret-peak-utah-temple-54400-main.jpg"
   },
   {
     "name": "Fort Collins Colorado",
@@ -160,11 +182,6 @@
   {
     "name": "Denver Colorado",
     "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/denver-colorado/800x500/denver-temple-lds-999518-wallpaper.jpg"
-  },
-  
-  {
-    "name": "Ogden Utah",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/ogden-utah/800x500/ogden-utah-temple-1300442-wallpaper.jpg"
   },
   {
     "name": "Newport Beach California",
@@ -177,5 +194,10 @@
   {
     "name": "Los Angeles California",
     "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/los-angeles-california/800x500/los-angeles-california-temple-1079458-wallpaper.jpg"
+  },
+  {
+    "name": "Layton Utah",
+    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/layton-utah-temple/layton-utah-temple-47164.jpg"
   }
+  
 ]

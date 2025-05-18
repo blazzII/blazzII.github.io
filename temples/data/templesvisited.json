@@ -31,7 +31,6 @@
     "name": "Laie Hawaii",
     "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/laie-hawaii/800x500/laie-temple-775369-wallpaper.jpg"
   },
-
   {
     "name": "Portland Oregon",
     "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/portland-oregon/800x500/portland-temple-lds-1079112-wallpaper.jpg"
@@ -44,8 +43,9 @@
     "name": "Spokane Washington",
     "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/spokane-washington/800x500/spokane-temple-lds-736590-wallpaper.jpg"
   },
-  {"name":"Columbia River Washington",
-    "imageurl":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/columbia-river-washington/800x500/columbia-river-temple-lds-761262-wallpaper.jpg"
+  {
+    "name": "Columbia River Washington",
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/columbia-river-washington/800x500/columbia-river-temple-lds-761262-wallpaper.jpg"
   },
   {
     "name": "Draper Utah",
@@ -75,7 +75,6 @@
     "name": "Manti Utah",
     "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/800x500/manti-temple-766504-wallpaper.jpg"
   },
-  
   {
     "name": "Logan Utah",
     "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/logan-utah/800x500/logan-temple-768087-wallpaper.jpg"
@@ -128,7 +127,8 @@
     "name": "Taylorsville Utah",
     "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/taylorsville-utah-temple/taylorsville-utah-temple-46894.jpg"
   },
-  { "name": "Vernal Utah",
+  {
+    "name": "Vernal Utah",
     "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/vernal-utah/800x500/vernal-temple-lds-1078594-wallpaper.jpg"
   },
   {
@@ -196,8 +196,15 @@
     "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/los-angeles-california/800x500/los-angeles-california-temple-1079458-wallpaper.jpg"
   },
   {
+    "name": "Chicago Illinois",
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/chicago-illinois/800x500/Chicago-Temple_0738.jpg"
+  },
+  {
+    "name": "Nauvoo Illinois",
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/nauvoo-illinois/800x500/nauvoo-temple-756496-wallpaper.jpg"
+  },
+  {
     "name": "Layton Utah",
     "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/layton-utah-temple/layton-utah-temple-47164.jpg"
   }
-  
 ]

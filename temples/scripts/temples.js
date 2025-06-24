@@ -26,16 +26,17 @@ async function getTemples() {
 
       alink.href = links.church;
       alink.target = '_blank';
-      alink.rel = 'noopener noreferrer'; 
-      
+      alink.rel = 'noopener noreferrer';
+
       slink.href = links.thirdparty;
       slink.target = '_blank';
-      slink.rel = 'noopener noreferrer';   
+      slink.rel = 'noopener noreferrer';
       paragraph.appendChild(alink);
       paragraph.append(' • ');
       paragraph.appendChild(slink);
-      
+
       image.src = temple.imageurl;
+      image.alt = `Image of ${temple.name}`;
 
       // Append elements to the section
       section.appendChild(name);
@@ -50,7 +51,7 @@ async function getTemples() {
     });
   } catch (error) {
     console.error('Error fetching temples:', error);
-  } 
+  }
 }
 
 function generateTempleLinks(name) {
@@ -61,7 +62,7 @@ function generateTempleLinks(name) {
   // other ?
   const church = `https://www.churchofjesuschrist.org/temples/details/${hyphenName}-temple/`;
   const thirdparty = `https://churchofjesuschristtemples.org/${hyphenName}-temple/`;
-  
+
   return { church, thirdparty };
 }
 

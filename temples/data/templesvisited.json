@@ -227,8 +227,12 @@
     "name": "Preston England",
     "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/preston-england/800x500/preston-temple-762730-wallpaper.jpg"
   },
-    {
-      "name": "Dallas Texas",
-      "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/dallas-texas/2018/800x500/Dallas-Texas-Temple14.jpg"
-    }
+  {
+    "name": "Dallas Texas",
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/dallas-texas/2018/800x500/Dallas-Texas-Temple14.jpg"
+  },
+  {
+    "name": "Pocatello Idaho",
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/pocatello-idaho/800x800/pocatello-idaho-temple-open-house-2.jpg"
+  }
 ]

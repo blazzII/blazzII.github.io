@@ -57,7 +57,8 @@ async function getTemples() {
 function generateTempleLinks(name) {
   const hyphenName = name
     .toLowerCase()
-    .replace(/[^a-z0-9\s]/g, '') // remove punctuation
+    .replace(/[^a-z0-9\s]/g, '') // remove punctuation unless it is Washington D.C.
+    
     .replace(/\s+/g, '-')        // replace spaces with hyphens
   // other ?
   const church = `https://www.churchofjesuschrist.org/temples/details/${hyphenName}-temple/`;

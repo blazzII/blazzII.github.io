@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
   var seconds = 0;
   var gameTimer;
    // initialize sound files
-   var nomatch = new sound('../media/error.mp3');
+   var nomatch = new sound('../media/Blue-lobster-meme.mp3');
 
   function createBoard() {
     clearInterval(seconds);

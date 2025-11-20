@@ -1,1 +1,0 @@
-[11-Dec-2017 19:33:09 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'interviews'@'localhost' (using password: YES) in /home2/jasonbl7/public_html/schedule/class01.php on line 18

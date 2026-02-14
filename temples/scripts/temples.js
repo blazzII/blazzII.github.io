@@ -26,11 +26,9 @@ async function getTemples() {
 
       alink.href = links.church;
       alink.target = '_blank';
-      alink.rel = 'noopener noreferrer';
 
       slink.href = links.thirdparty;
       slink.target = '_blank';
-      slink.rel = 'noopener noreferrer';
       paragraph.appendChild(alink);
       paragraph.append(' • ');
       paragraph.appendChild(slink);

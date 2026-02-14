@@ -36,7 +36,8 @@ async function getTemples() {
       paragraph.appendChild(slink);
 
       image.src = temple.imageurl;
-      image.alt = `Image of ${temple.name}`;
+      image.alt = `Image of ${temple.name}`
+      image.loading = "lazy";
 
       // Append elements to the section
       section.appendChild(name);

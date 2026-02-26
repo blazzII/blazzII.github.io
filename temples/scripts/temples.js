@@ -26,17 +26,16 @@ async function getTemples() {
 
       alink.href = links.church;
       alink.target = '_blank';
-      alink.rel = 'noopener noreferrer';
 
       slink.href = links.thirdparty;
       slink.target = '_blank';
-      slink.rel = 'noopener noreferrer';
       paragraph.appendChild(alink);
       paragraph.append(' • ');
       paragraph.appendChild(slink);
 
       image.src = temple.imageurl;
-      image.alt = `Image of ${temple.name}`;
+      image.alt = `Image of ${temple.name}`
+      image.loading = "lazy";
 
       // Append elements to the section
       section.appendChild(name);

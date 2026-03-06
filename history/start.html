@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The First Internet Message!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/drawing.js" defer></script>
+</head>
+
+<body>
+
+  <canvas id="netCanvas"></canvas>
+
+  <main class="container">
+
+    <div class="title-badge">🌐 The First Internet Message!</div>
+    <p class="subtitle">October 29, 1969 — The Day Computers Started Talking 🗣️💻</p>
+
+    <div class="scene">
+      <!-- UCLA -->
+      <div class="building-card ucla">
+        <div class="building-label">UCLA</div>
+        <div class="building-sublabel">University of California<br>Los Angeles, CA</div>
+        <svg class="building-svg" viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg">
+          <rect x="20" y="40" width="80" height="55" fill="#1a3a5c" rx="4" />
+          <rect x="30" y="20" width="60" height="25" fill="#1f4570" rx="4" />
+          <rect x="45" y="5" width="30" height="18" fill="#264d7e" rx="4" />
+          <rect x="28" y="48" width="14" height="12" fill="#FF6B35" rx="2" opacity="0.8" />
+          <rect x="50" y="48" width="14" height="12" fill="#FF6B35" rx="2" opacity="0.8" />
+          <rect x="72" y="48" width="14" height="12" fill="#FF6B35" rx="2" opacity="0.8" />
+          <rect x="28" y="68" width="14" height="12" fill="#FF6B35" rx="2" opacity="0.6" />
+          <rect x="72" y="68" width="14" height="12" fill="#FF6B35" rx="2" opacity="0.6" />
+          <rect x="48" y="72" width="18" height="23" fill="#1f4570" rx="3" />
+          <rect x="36" y="28" width="18" height="14" fill="#0a0a0a" rx="2" />
+          <text x="45" y="39" text-anchor="middle" font-size="7" fill="#FF6B35" font-weight="bold">LOG</text>
+        </svg>
+        <div class="status-text status-ucla">
+          <span class="status-dot ucla-dot"></span>Sending...
+        </div>
+      </div>
+
+      <!-- Signal -->
+      <div class="signal-area">
+        <div class="signal-label">⚡ ARPANET ⚡</div>
+        <div class="signal-wire">
+          <div class="wire-line"></div>
+          <div class="message-bubble">LO</div>
+        </div>
+        <div class="signal-distance">~350 miles</div>
+      </div>
+
+      <!-- SRI -->
+      <div class="building-card sri">
+        <div class="building-label">SRI</div>
+        <div class="building-sublabel">Stanford Research<br>Institute, Menlo Park</div>
+        <svg class="building-svg" viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg">
+          <rect x="15" y="35" width="90" height="60" fill="#0d3325" rx="4" />
+          <polygon points="15,35 60,10 105,35" fill="#0a2a1e" />
+          <polygon points="35,35 60,18 85,35" fill="#082218" />
+          <rect x="25" y="48" width="14" height="12" fill="#00ffaa" rx="2" opacity="0.7" />
+          <rect x="47" y="48" width="14" height="12" fill="#00ffaa" rx="2" opacity="0.7" />
+          <rect x="69" y="48" width="14" height="12" fill="#00ffaa" rx="2" opacity="0.7" />
+          <rect x="91" y="48" width="12" height="12" fill="#00ffaa" rx="2" opacity="0.7" />
+          <rect x="25" y="68" width="14" height="12" fill="#00ffaa" rx="2" opacity="0.5" />
+          <rect x="91" y="68" width="12" height="12" fill="#00ffaa" rx="2" opacity="0.5" />
+          <rect x="47" y="70" width="20" height="25" fill="#0a2a1e" rx="3" />
+          <rect x="50" y="48" width="14" height="10" fill="#0a0a0a" rx="2" />
+          <text x="57" y="56" text-anchor="middle" font-size="6" fill="#00ffaa" font-weight="bold">LO!</text>
+        </svg>
+        <div class="status-text status-sri">
+          <span class="status-dot sri-dot"></span>Received!
+        </div>
+      </div>
+    </div>
+    <div class="crash-section">
+      <p>The scientists tried to send the word <strong>"LOGIN"</strong>... but the computer crashed after only two letters got through!</p>
+    </div>
+    <section class="history-visuals" aria-label="ARPANET first four nodes">
+      <h2 class="visuals-title">🧭 The First 4 ARPANET Nodes</h2>
+
+      <div class="network-map" role="img" aria-label="Map of California and Utah with the first four ARPANET nodes and UCLA's original links to SRI, UCSB, and the University of Utah">
+        <svg viewBox="0 0 920 430" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+          <line x1="286" y1="282" x2="255" y2="148" class="network-link" />
+          <line x1="286" y1="282" x2="267" y2="248" class="network-link" />
+          <line x1="286" y1="282" x2="718" y2="215" class="network-link" />
+
+          <g class="map-point ucla-point">
+            <circle cx="286" cy="282" r="10" />
+            <text x="300" y="286">UCLA — Los Angeles</text>
+            <text x="300" y="305" class="node-year">First node (1969)</text>
+          </g>
+
+          <g class="map-point sri-point">
+            <circle cx="255" cy="148" r="9" />
+            <text x="270" y="139">SRI — Menlo Park</text>
+          </g>
+
+          <g class="map-point ucsb-point">
+            <circle cx="267" cy="248" r="9" />
+            <text x="282" y="242">UCSB — Santa Barbara</text>
+          </g>
+
+          <g class="map-point utah-point">
+            <circle cx="718" cy="215" r="9" />
+            <text x="704" y="208" text-anchor="end">University of Utah — Salt Lake City</text>
+          </g>
+        </svg>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+
+</html>

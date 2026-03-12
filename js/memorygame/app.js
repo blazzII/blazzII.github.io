@@ -18,10 +18,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const grid = document.querySelector('.grid');
   const message = document.querySelector('#message');
   const timeDisplay = document.querySelector('#time');
+  const movesDisplay = document.querySelector('#moves');
   const bestTimeDisplay = document.querySelector('#bestTime');
   const btnReset = document.querySelector('#reset');
 
-  if (!grid || !message || !timeDisplay || !bestTimeDisplay || !btnReset) {
+  if (!grid || !message || !timeDisplay || !movesDisplay || !bestTimeDisplay || !btnReset) {
     return;
   }
 
@@ -30,12 +31,13 @@ document.addEventListener('DOMContentLoaded', () => {
   let cardsChosenId = [];
   let matchedCardIds = new Set();
   let score = 0;
+  let moves = 0;
   let seconds = 0;
   let gameTimer = null;
   let isCheckingMatch = false;
 
   // Keep current sound utility while avoiding errors when audio playback is blocked.
-  const noMatchSound = new sound('../media/Blue-lobster-meme.mp3');
+  const noMatchSound = new sound('../media/error.mp3');
 
   function shuffle(array) {
     for (let i = array.length - 1; i > 0; i -= 1) {
@@ -49,6 +51,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const minutes = Math.floor(totalSeconds / 60);
     const remainderSeconds = totalSeconds % 60;
     timeDisplay.textContent = `${minutes}:${remainderSeconds < 10 ? '0' : ''}${remainderSeconds}`;
+  }
+
+  function updateMovesDisplay(totalMoves) {
+    movesDisplay.textContent = `Moves: ${totalMoves}`;
   }
 
   function renderBestTime() {
@@ -139,6 +145,8 @@ document.addEventListener('DOMContentLoaded', () => {
     cardImage.setAttribute('src', deck[cardId].img);
 
     if (cardsChosen.length === 2) {
+      moves += 1;
+      updateMovesDisplay(moves);
       isCheckingMatch = true;
       setTimeout(checkForMatch, 500);
     }
@@ -150,12 +158,14 @@ document.addEventListener('DOMContentLoaded', () => {
     cardsChosenId = [];
     matchedCardIds = new Set();
     score = 0;
+    moves = 0;
     seconds = 0;
     isCheckingMatch = false;
 
     grid.innerHTML = '';
     message.textContent = 'Good Luck!';
     updateTimeDisplay(seconds);
+    updateMovesDisplay(moves);
     btnReset.style.display = 'none';
 
     for (let i = 0; i < deck.length; i += 1) {
@@ -175,5 +185,6 @@ document.addEventListener('DOMContentLoaded', () => {
     startTimer();
   }
 
+  btnReset.addEventListener('click', createBoard);
   createBoard();
 });

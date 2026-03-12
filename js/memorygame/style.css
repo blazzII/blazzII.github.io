@@ -56,9 +56,11 @@ div {
   0% {
     color: rgba(255, 99, 71, 0.9);
   }
+
   50% {
     color: rgba(160, 82, 45, 1);
   }
+
   100% {
     color: rgba(255, 99, 71, 1);
   }
@@ -66,6 +68,10 @@ div {
 
 #time {
   font-size: 1.5rem;
+}
+
+#moves {
+  font-size: 1rem;
 }
 
 #bestTime {

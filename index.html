@@ -13,54 +13,84 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto:wght@400;700;900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300..800&family=Sora:wght@400..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/index-modern.css">
   <link rel="icon" type="image/ico" sizes="16x16" href="favicon.ico">
   <meta name="description" content="This working site is the home of .:|:. blazzard">
   <title>.:|:. blazzard</title>
-
-  <script src="scripts/ham.js" defer></script>
 </head>
 
 <body>
-  <div class="wrapper">
-    <main>
-      <h1>❄️ blazzard ❄️</h1>
-      <ul>
-        <li><a href="temples/templesVisited.html" title="100 Temples by 2030">100 Temples</a></li>
-        <li><a href="ford/elderHollandFord.pdf" target="_blank">Elder Holland Ford</a></li>
-        <li><a href="blazzsome/map12-bible/" target="_blank">Map 12</a></li>
-        <li><a href="js" title="JS Work" target="_blank">JS Games</a></li>
-        <li><a href="mom/index.html" title="Mom" target="_blank">Mom</a></li>
-        <li><a href="https://codepen.io/blazzard-jason/pen/xxzYELK" title="Latter-day Prophets"
-            target="_blank">Latter-day Prophets</a></li>
-      </ul>
-    </main>
-
-    <nav id="social">
-      <a href="https://www.linkedin.com/in/blazzard/" title="LinkedIn" target="_blank"><img src="images/linkedin-128.png"
-          alt="Jason Blazzard LinkedIn" width="40"></a>
-      <a href="https://www.instagram.com/blazzard87/" title="Instagram" target="_blank"><img src="images/instagram-128.png"
-          alt="Jason Blazzard Instagram" width="40"></a>
-      <a href="https://www.facebook.com/blazzard/" title="Facebook" target="_blank"><img src="images/facebook-128.png"
-          alt="Jason Blazzard Facebook" width="40"></a>
-      <a href="https://x.com/blazz_2?lang=en" title="X" target="_blank"><img src="images/x-128.png" alt="Jason Blazzard X"
-          width="40"></a>
-      <a href="https://github.com/blazzii" title="GitHub" target="_blank"><img src="images/github-128.png" alt="Jason Blazzard GitHub"
-          width="42"></a>
+  <header class="topbar">
+    <a href="index.html" class="brand" aria-label="Home">.:|:. blazzard</a>
+    <nav class="topnav" aria-label="Primary">
+      <a href="temples/templesVisited.html">100 Temples</a>
+      <a href="js/" target="_blank" rel="noopener noreferrer">JS Games</a>
+      <a href="https://codepen.io/blazzard-jason" target="_blank" rel="noopener noreferrer">CodePen</a>
+      <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Toggle dark mode">🌑</button>
     </nav>
-    <nav class="links">
-      <a href="https://www.byui.edu/directories/jason-blazzard" title="BYU-Idaho Profile">BYU-I Profile</a>
-      <a href="https://codepen.io/blazzard-jason" title="CodePen Pens">CodePens</a>
-      <a href="temples/templesVisited.html" title="100 Temples by 2030">100 Temples</a>
-    </nav>
+  </header>
 
-    <footer>
-      <p>&copy; 1992 | Jason Blazzard | All Rights Reserved</p>
-    </footer>
-  </div>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Jason Blazzard</p>
+      <h1>Projects, experiments, and stories crafted with care.</h1>
+      <p class="subtitle">A personal home for interactive web work, temple progress, and creative archives. Designed to feel simple, calm, and modern.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="temples/templesVisited.html">Explore 100 Temples</a>
+        <a class="btn btn-ghost" href="https://www.byui.edu/directories/jason-blazzard" target="_blank" rel="noopener noreferrer">BYU-I Profile</a>
+      </div>
+      <figure class="hero-media">
+        <img src="images/ziper.jpg" alt="Jason Blazzard portrait" loading="eager">
+      </figure>
+    </section>
+
+    <section class="spotlight" aria-label="Featured destinations">
+      <a class="card" href="temples/templesVisited.html">
+        <p class="card-kicker">Milestone Goal</p>
+        <h2>100 Temples</h2>
+        <p>Follow the journey to complete ordinances in 100 houses of the Lord by 2030.</p>
+      </a>
+      <a class="card" href="js/" target="_blank" rel="noopener noreferrer">
+        <p class="card-kicker">Interactive</p>
+        <h2>JS Games</h2>
+        <p>Hands-on browser games and exercises built with vanilla JavaScript.</p>
+      </a>
+      <a class="card" href="repurpose/index.html">
+        <p class="card-kicker">Builds Spotlight</p>
+        <h2>Builds</h2>
+        <p>Gallery of builds, including projects made with repurposed and reclaimed materials.</p>
+      </a>
+      <a class="card" href="ford/elderHollandFord.pdf" target="_blank" rel="noopener noreferrer">
+        <p class="card-kicker">Talk Notes</p>
+        <h2>Elder Holland Ford</h2>
+        <p>Reference notes and supporting materials in PDF format.</p>
+      </a>
+      <a class="card" href="mom/index.html" target="_blank" rel="noopener noreferrer">
+        <p class="card-kicker">Family</p>
+        <h2>Mom Page</h2>
+        <p>A dedicated place for family-centered memories and links.</p>
+      </a>
+      <a class="card" href="https://codepen.io/blazzard-jason/pen/xxzYELK" target="_blank" rel="noopener noreferrer">
+        <p class="card-kicker">Creative Build</p>
+        <h2>Latter-day Prophets</h2>
+        <p>A featured CodePen project with interactive storytelling.</p>
+      </a>
+    </section>
+
+    <section class="social-wrap" aria-label="Social links">
+      <a href="https://www.linkedin.com/in/blazzard/" title="LinkedIn" target="_blank" rel="noopener noreferrer"><img src="images/linkedin-128.png" alt="Jason Blazzard LinkedIn"></a>
+      <a href="https://www.instagram.com/blazzard87/" title="Instagram" target="_blank" rel="noopener noreferrer"><img src="images/instagram-128.png" alt="Jason Blazzard Instagram"></a>
+      <a href="https://www.facebook.com/blazzard/" title="Facebook" target="_blank" rel="noopener noreferrer"><img src="images/facebook-128.png" alt="Jason Blazzard Facebook"></a>
+      <a href="https://x.com/blazz_2?lang=en" title="X" target="_blank" rel="noopener noreferrer"><img src="images/x-128.png" alt="Jason Blazzard X"></a>
+      <a href="https://github.com/blazzii" title="GitHub" target="_blank" rel="noopener noreferrer"><img src="images/github-128.png" alt="Jason Blazzard GitHub"></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 1992 | Jason Blazzard | All Rights Reserved</p>
+  </footer>
+  <script src="scripts/index-theme.js" defer></script>
 </body>
 
 </html>

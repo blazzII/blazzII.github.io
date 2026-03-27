@@ -217,11 +217,28 @@ main {
 .hero {
   border-radius: var(--radius-xl);
   border: 1px solid var(--line);
-  background:
-    linear-gradient(135deg, var(--hero-grad-a), var(--hero-grad-b)),
-    linear-gradient(120deg, var(--hero-grad-c) 0%, var(--hero-grad-d) 45%, var(--hero-grad-e) 100%);
+  background: #1c2030;
   box-shadow: 0 20px 46px rgb(17 28 45 / 12%);
-  padding: 1.3rem;
+  padding: 2rem 1.3rem 2.5rem;
+  position: relative;
+  overflow: hidden;
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* dark gradient scrim for text readability */
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top,
+      rgba(0, 0, 0, 0.82) 0%,
+      rgba(0, 0, 0, 0.52) 42%,
+      rgba(0, 0, 0, 0.18) 100%);
+  z-index: 1;
+  pointer-events: none;
 }
 
 .eyebrow {
@@ -230,6 +247,24 @@ main {
   letter-spacing: 0.16em;
   color: var(--eyebrow);
   font-weight: 700;
+}
+
+/* text elements sit above the image + scrim */
+.hero> :not(.hero-media) {
+  position: relative;
+  z-index: 2;
+}
+
+.hero .eyebrow {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.hero h1 {
+  color: #fff;
+}
+
+.hero .subtitle {
+  color: rgba(255, 255, 255, 0.78);
 }
 
 .hero h1 {
@@ -283,15 +318,18 @@ main {
 }
 
 .hero-media {
-  margin-top: 1rem;
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  z-index: 0;
 }
 
 .hero-media img {
   display: block;
   width: 100%;
-  aspect-ratio: 16 / 9;
-  border-radius: 1.2rem;
-  border: 1px solid var(--media-border);
+  height: 100%;
+  border-radius: 0;
+  border: none;
   object-fit: cover;
   object-position: center 35%;
 }
@@ -382,7 +420,8 @@ main {
   }
 
   .hero {
-    padding: 1.8rem;
+    padding: 2.5rem 1.8rem 3rem;
+    min-height: 500px;
   }
 
   .hero h1 {
@@ -392,11 +431,6 @@ main {
 
   .subtitle {
     font-size: 1.06rem;
-  }
-
-  .hero-media img {
-    aspect-ratio: 2 / 1;
-    object-position: center 28%;
   }
 
   .spotlight {
@@ -412,20 +446,13 @@ main {
 
 @media (min-width: 1120px) {
   .hero {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(360px, 44%);
-    column-gap: 1.5rem;
-    align-items: center;
+    min-height: 560px;
+    padding: 3rem 2.5rem 3.5rem;
   }
 
-  .hero-media {
-    margin-top: 0;
-  }
-
-  .hero-media img {
-    aspect-ratio: 5 / 4;
-    min-height: 360px;
-    object-position: center 30%;
+  .hero h1 {
+    font-size: 3.6rem;
+    max-width: 18ch;
   }
 
   .spotlight {

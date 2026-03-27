@@ -20,15 +20,19 @@ async function getTemples() {
 
       // Set the content
       name.textContent = temple.name;
+      section.className = 'temple-card';
+      paragraph.className = 'temple-links';
       const links = generateTempleLinks(temple.name);
       alink.textContent = 'Official Site';
       slink.textContent = 'Details';
 
       alink.href = links.church;
       alink.target = '_blank';
+      alink.rel = 'noopener noreferrer';
 
       slink.href = links.thirdparty;
       slink.target = '_blank';
+      slink.rel = 'noopener noreferrer';
       paragraph.appendChild(alink);
       paragraph.append(' • ');
       paragraph.appendChild(slink);
@@ -57,7 +61,7 @@ function generateTempleLinks(name) {
   const hyphenName = name
     .toLowerCase()
     .replace(/[^a-z0-9\s]/g, '') // remove punctuation unless it is Washington D.C.
-    
+
     .replace(/\s+/g, '-')        // replace spaces with hyphens
   // other ?
   const church = `https://www.churchofjesuschrist.org/temples/details/${hyphenName}-temple/`;

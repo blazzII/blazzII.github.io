@@ -21,10 +21,20 @@
 
   <meta name="description" content="This working site is the home of .:|:. blazzard">
   <title>Spirit Lake Idaho | Blazzard</title>
+  <style>
+    h1 {
+      position: fixed;
+      top: 100px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      z-index: 10;
+    }
+  </style>
 </head>
 
 <body>
-  <h1>Spirit Lake Idaho</h1>
+  <h1>Spirit Lake, Idaho</h1>
   <div class="video-grid">
     <video id="zback" poster="images/ziper-400.jpg" autoplay muted>
       <source src="media/backWaterSking.mp4" type="video/mp4">
@@ -37,6 +47,17 @@
       Idaho's Spirit Lake.
     </p>
   </div>
+  <script>
+    const heroVideo = document.getElementById('zback');
+    const pageHeading = document.querySelector('h1');
+
+    if (heroVideo && pageHeading) {
+      pageHeading.style.transition = 'color 1200ms ease';
+      heroVideo.addEventListener('ended', () => {
+        pageHeading.style.color = '#000';
+      });
+    }
+  </script>
 </body>
 
 </html>

@@ -413,6 +413,32 @@ main {
   font-size: 0.9rem;
 }
 
+@media (max-width: 759px) {
+  .topbar {
+    border-radius: 1.25rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .brand {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .topnav {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+  }
+
+  .topnav a,
+  .theme-toggle {
+    padding: 0.42rem 0.62rem;
+    font-size: 0.9rem;
+  }
+}
+
 @media (min-width: 760px) {
   .topbar {
     margin-top: 0.9rem;

@@ -20,7 +20,7 @@ async function getTemples() {
 
       // Set the content
       name.textContent = temple.name;
-      section.className = 'temple-card';
+      section.className = 'card temple-card';
       paragraph.className = 'temple-links';
       const links = generateTempleLinks(temple.name);
       alink.textContent = 'Official Site';

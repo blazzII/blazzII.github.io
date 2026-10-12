@@ -1,9 +1,7 @@
 (function () {
   const storageKey = 'homeTheme';
+  // Only the home page has the toggle; other pages just apply the saved theme.
   const button = document.querySelector('.theme-toggle');
-  if (!button) {
-    return;
-  }
 
   function getPreferredTheme() {
     const saved = localStorage.getItem(storageKey);
@@ -15,12 +13,19 @@
 
   function applyTheme(theme) {
     document.body.setAttribute('data-theme', theme);
+    if (!button) {
+      return;
+    }
     button.setAttribute('aria-pressed', String(theme === 'dark'));
     button.textContent = theme === 'dark' ? '☀️' : '🌑';
     button.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
   }
 
   applyTheme(getPreferredTheme());
+
+  if (!button) {
+    return;
+  }
 
   button.addEventListener('click', function () {
     const current = document.body.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';

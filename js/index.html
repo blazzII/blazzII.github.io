@@ -10,53 +10,51 @@
   <meta name="msapplication-TileImage" content="/mstile-144x144.png">
   <meta property="fb:pages" content="124436167285">
 
-  <link rel="stylesheet" href="../css/reset.css">
-  <link rel="stylesheet" href="../css/sub.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300..800&family=Sora:wght@400..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/site.css">
 
   <meta name="description"
     content="This working site is the home of [ .:|:. blazzard ] - JS Tutorial Enhancements">
 </head>
 
 <body>
-  <nav>
-    <ul>
-      <li><a href="/">.:|:.</a></li>
-      <li>
-        <a href="https://www.linkedin.com/in/blazzard/" title="Jason Blazzard on LinkedIn">[in]</a>
-      </li>
-      <li><a href="#" title="JS Work">JS 🏢</a></li>
-      <li>
-        <a href="https://byui-cit230.github.io" title="WDD 230 - BYU-Idaho">Web FED</a>
-      </li>
-    </ul>
-  </nav>
-  <header>
-    <h1>[blazzard] - JS Tutorial Enhancements and Activities</h1>
+  <header class="topbar">
+    <a class="brand" href="/">.:|:. blazzard</a>
+    <nav class="topnav" aria-label="Primary">
+      <a href="https://www.linkedin.com/in/blazzard/" title="Jason Blazzard on LinkedIn">LinkedIn</a>
+      <a href="https://byui-cit230.github.io" title="WDD 230 - BYU-Idaho">Web FED</a>
+    </nav>
   </header>
+
   <main>
-    <section>
-      <h2>freecodecamp baseline games</h2>
-      <ul>
-        <li><a href="memorygame">👩‍💻 Match Me! Memory Game</a></li>
-        <li><a href="wackamole">🐀 Adios Rat!</a></li>
-        <li><a href="connectfour">4️⃣ Connect Four</a></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
+    <section class="hero">
+      <p class="eyebrow">JS Work</p>
+      <h1>JS Tutorial Enhancements and Activities</h1>
+      <p class="subtitle">freecodecamp baseline games</p>
+    </section>
+
+    <section class="grid" aria-label="Games">
+      <a class="card" href="memorygame">
+        <h2>👩‍💻 Match Me! Memory Game</h2>
+      </a>
+      <a class="card" href="wackamole">
+        <h2>🐀 Adios Rat!</h2>
+      </a>
+      <a class="card" href="connectfour">
+        <h2>4️⃣ Connect Four</h2>
+      </a>
     </section>
   </main>
-  <aside>
-    <h3>Resources Used</h3>
-    🎂 freecodecamp.org -
-    <a href="https://www.freecodecamp.org/news/learn-javascript-by-building-7-games-video-course/">Learn
-      JavaScript by Building 7 Games</a>
-    - Aina. Beau Carnes
-  </aside>
+
+  <footer class="site-footer">
+    <p>Resources Used: 🎂 freecodecamp.org -
+      <a href="https://www.freecodecamp.org/news/learn-javascript-by-building-7-games-video-course/">Learn
+        JavaScript by Building 7 Games</a>
+      - Aina. Beau Carnes</p>
+  </footer>
+  <script src="../scripts/index-theme.js" defer></script>
 </body>
 
 </html>

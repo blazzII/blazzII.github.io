@@ -9,26 +9,30 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300..800&family=Sora:wght@400..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/site.css">
   <link rel="stylesheet" href="repurpose.css">
 </head>
 
 <body>
   <header class="topbar">
     <a class="brand" href="../index.html">.:|:. blazzard</a>
-    <a class="back-link" href="../index.html">Back Home</a>
+    <nav class="topnav" aria-label="Primary">
+      <a href="../index.html">Back Home</a>
+    </nav>
   </header>
 
-  <main class="page">
+  <main>
     <section class="hero">
       <p class="eyebrow">Builds</p>
       <h1>Spotlight on Builds</h1>
-      <p>This gallery features a range of projects, including several made from repurposed materials and second-life parts.</p>
+      <p class="subtitle">This gallery features a range of projects, including several made from repurposed materials and second-life parts.</p>
     </section>
 
-    <section class="gallery" id="gallery" aria-live="polite"></section>
+    <section class="grid gallery" id="gallery" aria-live="polite"></section>
   </main>
 
   <script src="gallery.js" defer></script>
+  <script src="../scripts/index-theme.js" defer></script>
 </body>
 
 </html>

@@ -7,10 +7,12 @@
   <meta name="description" content="The goal is to visit 100 different temples by the bicentennial of the restored Church of Jesus Christ, 06 April 2030.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300..800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300..800&family=Sora:wght@400..800&display=swap" rel="stylesheet">
+  <link href="../css/site.css" rel="stylesheet">
   <link href="styles/zimple.css" rel="stylesheet">
   <script src="scripts/temples.js" defer></script>
   <script src="scripts/footer.js" defer></script>
+  <script src="../scripts/index-theme.js" defer></script>
   <title>Blazzard - Latter-day Temples</title>
 
   <!-- Open Graph / Facebook -->
@@ -33,10 +35,17 @@
 </head>
 
 <body>
-  <main class="temples-page">
+  <header class="topbar">
+    <a class="brand" href="../index.html">.:|:. blazzard</a>
+    <nav class="topnav" aria-label="Primary">
+      <a href="../index.html">Back Home</a>
+    </nav>
+  </header>
+
+  <main>
     <section class="hero">
       <h1>100 Temples</h1>
-      <p class="intro">Our objective is to perform ordinances in 100 houses of the Lord by the 200th anniversary of the restored Church, <a href="https://www.churchofjesuschrist.org/temples" target="_blank" rel="noopener noreferrer">The Church of Jesus Christ of Latter-day Saints</a>, on <strong>06 April 2030</strong>.</p>
+      <p class="subtitle">Our objective is to perform ordinances in 100 houses of the Lord by the 200th anniversary of the restored Church, <a href="https://www.churchofjesuschrist.org/temples" target="_blank" rel="noopener noreferrer">The Church of Jesus Christ of Latter-day Saints</a>, on <strong>06 April 2030</strong>.</p>
       <div class="hero-meta">
         <img src="../images/TreesofMystery.jpg" alt="Blazzards" class="hero-image">
         <aside class="goal-card">
@@ -48,7 +57,7 @@
 
     <div class="grid" aria-live="polite"></div>
   </main>
-  <footer>
+  <footer class="site-footer">
     <span id="years"></span> .:|:. blazzard
   </footer>
 </body>

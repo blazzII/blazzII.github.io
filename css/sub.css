@@ -15,7 +15,8 @@ nav {
   color: #fff;
   position: fixed;
   top: 0;
-  width: 100vw;
+  left: 0;
+  width: 100%;
   margin: 0;
 }
 
@@ -27,7 +28,8 @@ nav ul {
   justify-content: center;
 }
 
-nav ul li a {
+nav ul li a,
+nav ul li a:visited {
   text-decoration: none;
   padding: 1.5rem;
   color: #fff;
@@ -89,6 +91,7 @@ main ul li {
 main ul li a {
   text-decoration: none;
 }
+
 aside {
   margin: 1rem auto;
   width: 90%;

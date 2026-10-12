@@ -1,4 +1,4 @@
-﻿@charset "UTF-8";
+@charset "UTF-8";
 html, body {
     height: 100%;
     line-height: 2;
@@ -101,8 +101,7 @@ section {
     background-color: #fff;
     color: #333;
     width: 100%;
-    white-space: unset;
-    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 table {
@@ -197,7 +196,7 @@ code {
 
 .gridlayout {
     display: grid;
-    grid-gap: .25rem;
+    gap: .25rem;
     grid-template-columns: 1fr;
 }
 
@@ -321,12 +320,6 @@ code,
 
 .multiple-choice ol {
     list-style-type: upper-alpha;
-}
-
-.row:before,
-.row:after {
-    display: table;
-    content: " ";
 }
 
 .twocolumncontain {

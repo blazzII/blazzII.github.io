@@ -1,12 +1,9 @@
 :root {
   --bg: #050d1a;
-  --yellow: #FFD93D;
   --orange: #FF6B35;
   --green: #00ffaa;
-  --pink: #FF6B9D;
   --cyan: #00e5ff;
   --light: #cce8ff;
-  --node: #00e5ff;
 }
 
 * {
@@ -398,20 +395,6 @@ body {
   }
 }
 
-@keyframes pulse {
-
-  0%,
-  100% {
-    transform: scale(1);
-    text-shadow: 0 0 20px rgba(0, 229, 255, 0.8);
-  }
-
-  50% {
-    transform: scale(1.08);
-    text-shadow: 0 0 40px rgba(0, 229, 255, 1), 0 0 60px rgba(0, 229, 255, 0.5);
-  }
-}
-
 .footer-fun {
   font-family: 'Fredoka One', cursive;
   font-size: 1.3rem;
@@ -457,5 +440,16 @@ body {
 @keyframes blink {
   50% {
     opacity: 0.1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0s !important;
+    animation-iteration-count: 1 !important;
   }
 }

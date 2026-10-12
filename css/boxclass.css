@@ -1,4 +1,4 @@
-﻿/* Class Selectors *******************************************************/
+/* Class Selectors *******************************************************/
 
 .info,
 .warn,
@@ -37,6 +37,5 @@
 .code {
     background-color: #ddd;
     color: #000;
-    background-image: url();
     padding-left: 50px;
 }

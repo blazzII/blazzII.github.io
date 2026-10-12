@@ -1,4 +1,4 @@
-﻿* {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -55,8 +55,13 @@ header section {
     background: rgba(229, 45, 39, 0.5);
 }
 
+.header-logo-anchor {
+    display: inline-block;
+    transition: transform .3s;
+}
+
 .header-logo-anchor:hover {
-    transform: rotate(270);
+    transform: rotate(270deg);
 }
 
 main {
@@ -141,18 +146,12 @@ figcaption {
     font-variant: small-caps;
 }
 
-
-
 .wrapper {
     width: 100%;
-    height: 100%;
     min-height: 100%;
-    height: auto !important;
     margin-right: auto;
     margin-left: auto;
 }
-
-
 
 .message {
     font-family: Ubuntu, Consolas;
@@ -166,10 +165,7 @@ figcaption {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
-
-
 
 .messageButton {
     display: block;
@@ -201,7 +197,7 @@ figcaption {
 }
 
 .missionary .data {
-    background: linear-gradient(to middle, transparent 30%, #aaa 1px);
+    background: linear-gradient(to bottom, transparent 30%, #aaa 1px);
     float: right;
     text-align: center;
 }
@@ -212,9 +208,3 @@ figcaption {
     text-align: center;
 }
 
-
-/* Medium View */
-@media screen and (min-width: 33em) {}
-
-/* Desktop View */
-@media screen and (min-width: 68em) {}

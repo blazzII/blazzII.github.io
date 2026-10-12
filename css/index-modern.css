@@ -4,130 +4,51 @@
   box-sizing: border-box;
 }
 
+/* Each color token is light-dark(light, dark); the active side follows color-scheme. */
 :root {
-  --bg: #f5f5f7;
-  --surface: #ffffff;
-  --surface-muted: #fbfbfd;
-  --ink: #101114;
-  --muted: #505362;
-  --line: #d9dce6;
-  --blue: #0071e3;
-  --blue-hover: #0062c3;
-  --bg-accent-1: rgb(0 113 227 / 18%);
-  --bg-accent-2: rgb(217 224 238 / 38%);
-  --bg-bottom: #eff2f6;
-  --topbar-border: rgb(210 215 230 / 80%);
-  --topbar-bg: rgb(255 255 255 / 72%);
-  --hero-grad-a: rgb(255 255 255 / 92%);
-  --hero-grad-b: rgb(252 253 255 / 88%);
-  --hero-grad-c: #dce8ff;
-  --hero-grad-d: #f3f0ff;
-  --hero-grad-e: #dff4f2;
-  --card-grad-a: rgb(255 255 255 / 95%);
-  --card-grad-b: rgb(245 248 255 / 88%);
-  --chip-bg: rgb(255 255 255 / 86%);
-  --eyebrow: #4a5a7a;
-  --media-border: rgb(0 0 0 / 10%);
-  --soft-hover: #e8eef9;
-  --social-bg: rgb(255 255 255 / 85%);
-  --social-hover: #edf1f9;
+  color-scheme: light dark;
+  --bg: light-dark(#f5f5f7, #0d1118);
+  --surface-muted: light-dark(#fbfbfd, #111722);
+  --ink: light-dark(#101114, #e9eef9);
+  --muted: light-dark(#505362, #afb8cb);
+  --line: light-dark(#d9dce6, #2b3446);
+  --blue: light-dark(#0071e3, #409cff);
+  --blue-hover: light-dark(#0062c3, #66adff);
+  --bg-accent-1: light-dark(rgb(0 113 227 / 18%), rgb(80 130 206 / 22%));
+  --bg-accent-2: light-dark(rgb(217 224 238 / 38%), rgb(74 87 116 / 34%));
+  --bg-bottom: light-dark(#eff2f6, #111823);
+  --topbar-border: light-dark(rgb(210 215 230 / 80%), rgb(73 88 117 / 68%));
+  --topbar-bg: light-dark(rgb(255 255 255 / 72%), rgb(18 25 37 / 75%));
+  --card-grad-a: light-dark(rgb(255 255 255 / 95%), rgb(25 34 49 / 95%));
+  --card-grad-b: light-dark(rgb(245 248 255 / 88%), rgb(17 25 38 / 88%));
+  --chip-bg: light-dark(rgb(255 255 255 / 86%), rgb(19 28 43 / 82%));
+  --eyebrow: light-dark(#4a5a7a, #9fb1cd);
+  --soft-hover: light-dark(#e8eef9, #202e46);
+  --social-bg: light-dark(rgb(255 255 255 / 85%), rgb(17 24 36 / 86%));
+  --social-hover: light-dark(#edf1f9, #22304a);
   --social-icon-filter: none;
+  --social-icon-filter-dark: invert(1) hue-rotate(180deg) saturate(0.65) brightness(1.08);
   --radius-xl: 2rem;
   --radius-md: 1.1rem;
   --content: min(1120px, calc(100% - 2rem));
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #0d1118;
-    --surface: #171c26;
-    --surface-muted: #111722;
-    --ink: #e9eef9;
-    --muted: #afb8cb;
-    --line: #2b3446;
-    --blue: #409cff;
-    --blue-hover: #66adff;
-    --bg-accent-1: rgb(80 130 206 / 22%);
-    --bg-accent-2: rgb(74 87 116 / 34%);
-    --bg-bottom: #111823;
-    --topbar-border: rgb(73 88 117 / 68%);
-    --topbar-bg: rgb(18 25 37 / 75%);
-    --hero-grad-a: rgb(26 34 50 / 92%);
-    --hero-grad-b: rgb(21 30 45 / 88%);
-    --hero-grad-c: #1f2f4c;
-    --hero-grad-d: #262347;
-    --hero-grad-e: #16373a;
-    --card-grad-a: rgb(25 34 49 / 95%);
-    --card-grad-b: rgb(17 25 38 / 88%);
-    --chip-bg: rgb(19 28 43 / 82%);
-    --eyebrow: #9fb1cd;
-    --media-border: rgb(87 104 138 / 42%);
-    --soft-hover: #202e46;
-    --social-bg: rgb(17 24 36 / 86%);
-    --social-hover: #22304a;
-    --social-icon-filter: invert(1) hue-rotate(180deg) saturate(0.65) brightness(1.08);
-  }
+/* The theme toggle sets data-theme on body, overriding the system preference. */
+body[data-theme="light"] {
+  color-scheme: light;
 }
 
 body[data-theme="dark"] {
-  --bg: #0d1118;
-  --surface: #171c26;
-  --surface-muted: #111722;
-  --ink: #e9eef9;
-  --muted: #afb8cb;
-  --line: #2b3446;
-  --blue: #409cff;
-  --blue-hover: #66adff;
-  --bg-accent-1: rgb(80 130 206 / 22%);
-  --bg-accent-2: rgb(74 87 116 / 34%);
-  --bg-bottom: #111823;
-  --topbar-border: rgb(73 88 117 / 68%);
-  --topbar-bg: rgb(18 25 37 / 75%);
-  --hero-grad-a: rgb(26 34 50 / 92%);
-  --hero-grad-b: rgb(21 30 45 / 88%);
-  --hero-grad-c: #1f2f4c;
-  --hero-grad-d: #262347;
-  --hero-grad-e: #16373a;
-  --card-grad-a: rgb(25 34 49 / 95%);
-  --card-grad-b: rgb(17 25 38 / 88%);
-  --chip-bg: rgb(19 28 43 / 82%);
-  --eyebrow: #9fb1cd;
-  --media-border: rgb(87 104 138 / 42%);
-  --soft-hover: #202e46;
-  --social-bg: rgb(17 24 36 / 86%);
-  --social-hover: #22304a;
-  --social-icon-filter: invert(1) hue-rotate(180deg) saturate(0.65) brightness(1.08);
+  color-scheme: dark;
+  --social-icon-filter: var(--social-icon-filter-dark);
 }
 
-body[data-theme="light"] {
-  --bg: #f5f5f7;
-  --surface: #ffffff;
-  --surface-muted: #fbfbfd;
-  --ink: #101114;
-  --muted: #505362;
-  --line: #d9dce6;
-  --blue: #0071e3;
-  --blue-hover: #0062c3;
-  --bg-accent-1: rgb(0 113 227 / 18%);
-  --bg-accent-2: rgb(217 224 238 / 38%);
-  --bg-bottom: #eff2f6;
-  --topbar-border: rgb(210 215 230 / 80%);
-  --topbar-bg: rgb(255 255 255 / 72%);
-  --hero-grad-a: rgb(255 255 255 / 92%);
-  --hero-grad-b: rgb(252 253 255 / 88%);
-  --hero-grad-c: #dce8ff;
-  --hero-grad-d: #f3f0ff;
-  --hero-grad-e: #dff4f2;
-  --card-grad-a: rgb(255 255 255 / 95%);
-  --card-grad-b: rgb(245 248 255 / 88%);
-  --chip-bg: rgb(255 255 255 / 86%);
-  --eyebrow: #4a5a7a;
-  --media-border: rgb(0 0 0 / 10%);
-  --soft-hover: #e8eef9;
-  --social-bg: rgb(255 255 255 / 85%);
-  --social-hover: #edf1f9;
-  --social-icon-filter: none;
+@media (prefers-color-scheme: dark) {
+  body:not([data-theme="light"]) {
+    --social-icon-filter: var(--social-icon-filter-dark);
+  }
 }
+
 
 html {
   scroll-behavior: smooth;
@@ -234,9 +155,9 @@ main {
   position: absolute;
   inset: 0;
   background: linear-gradient(to top,
-      rgba(0, 0, 0, 0.82) 0%,
-      rgba(0, 0, 0, 0.52) 42%,
-      rgba(0, 0, 0, 0.18) 100%);
+      rgb(0 0 0 / 82%) 0%,
+      rgb(0 0 0 / 52%) 42%,
+      rgb(0 0 0 / 18%) 100%);
   z-index: 1;
   pointer-events: none;
 }
@@ -255,19 +176,13 @@ main {
   z-index: 2;
 }
 
-.hero .eyebrow {
-  color: rgba(255, 255, 255, 0.78);
+.hero .eyebrow,
+.hero .subtitle {
+  color: rgb(255 255 255 / 78%);
 }
 
 .hero h1 {
   color: #fff;
-}
-
-.hero .subtitle {
-  color: rgba(255, 255, 255, 0.78);
-}
-
-.hero h1 {
   margin-top: 0.55rem;
   font-family: "Sora", "Public Sans", sans-serif;
   font-size: 2.05rem;
@@ -483,5 +398,17 @@ main {
 
   .spotlight {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
   }
 }

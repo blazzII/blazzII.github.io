@@ -1,10 +1,8 @@
-﻿body {
-    font-size:16px;
-    box-sizing:border-box;
-}
-
-
-
-table tr:nth-child(odd) {
-    background-color:#eee;
-}
+body {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+table tr:nth-child(odd) {
+    background-color: #eee;
+}

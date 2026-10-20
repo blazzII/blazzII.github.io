@@ -1,0 +1,135 @@
+/* Home page only: photo hero, spotlight grid, social row. Loads after site.css. */
+
+:root {
+  --social-bg: light-dark(rgb(255 255 255 / 85%), rgb(17 24 36 / 86%));
+  --social-hover: light-dark(#edf1f9, #22304a);
+  --social-icon-filter: none;
+  --social-icon-filter-dark: invert(1) hue-rotate(180deg) saturate(0.65) brightness(1.08);
+}
+
+body[data-theme="dark"] {
+  --social-icon-filter: var(--social-icon-filter-dark);
+}
+
+@media (prefers-color-scheme: dark) {
+  body:not([data-theme="light"]) {
+    --social-icon-filter: var(--social-icon-filter-dark);
+  }
+}
+
+.hero {
+  background: #1c2030;
+  box-shadow: 0 20px 46px rgb(17 28 45 / 12%);
+  padding: 2rem 1.3rem 2.5rem;
+  position: relative;
+  overflow: hidden;
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* dark gradient scrim for text readability */
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top,
+      rgb(0 0 0 / 82%) 0%,
+      rgb(0 0 0 / 52%) 42%,
+      rgb(0 0 0 / 18%) 100%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* text elements sit above the image + scrim */
+.hero> :not(.hero-media) {
+  position: relative;
+  z-index: 2;
+}
+
+.hero .eyebrow,
+.hero .subtitle {
+  color: rgb(255 255 255 / 78%);
+}
+
+.hero h1 {
+  color: #fff;
+  margin-top: 0.55rem;
+  max-width: 18ch;
+}
+
+.hero .subtitle {
+  max-width: 62ch;
+  line-height: 1.5;
+}
+
+.hero-media {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  z-index: 0;
+}
+
+.hero-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 35%;
+}
+
+.spotlight {
+  --grid-min: 300px;
+}
+
+.social-wrap {
+  margin-top: 1.3rem;
+  padding: 0.6rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background-color: var(--social-bg);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.4rem;
+}
+
+.social-wrap a {
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  padding: 0.36rem;
+  transition: background-color 160ms ease;
+}
+
+.social-wrap a:hover {
+  background-color: var(--social-hover);
+}
+
+.social-wrap img {
+  width: 26px;
+  height: 26px;
+  filter: var(--social-icon-filter);
+}
+
+@media (min-width: 760px) {
+  .hero {
+    padding: 2.5rem 1.8rem 3rem;
+    min-height: 500px;
+  }
+
+  .hero h1 {
+    max-width: 16ch;
+  }
+}
+
+@media (min-width: 1120px) {
+  .hero {
+    min-height: 560px;
+    padding: 3rem 2.5rem 3.5rem;
+  }
+
+  .hero h1 {
+    max-width: 18ch;
+  }
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="How Tim Berners-Lee invented the World Wide Web at CERN between 1989 and 1991.">
+  <title>The World Wide Web Begins!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/drawing.js" defer></script>
+</head>
+
+<body>
+
+  <canvas id="netCanvas"></canvas>
+
+  <main class="container">
+
+    <h1 class="title-badge">🕸️ The World Wide Web Begins!</h1>
+    <p class="subtitle">1989 to 1991 — One Scientist's Idea Turns the Internet into a Web of Pages 📄🔗</p>
+
+    <div class="scene">
+      <!-- Server -->
+      <div class="building-card ucla">
+        <div class="building-label">Server</div>
+        <div class="building-sublabel">NeXT computer at CERN<br>Geneva, Switzerland</div>
+        <svg class="building-svg" viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg">
+          <rect x="30" y="25" width="60" height="60" fill="#0a0a0a" stroke="#264d7e" stroke-width="2" rx="4" />
+          <rect x="36" y="31" width="48" height="6" fill="#1f4570" rx="2" />
+          <rect x="36" y="41" width="48" height="6" fill="#1f4570" rx="2" />
+          <rect x="36" y="51" width="48" height="6" fill="#1f4570" rx="2" />
+          <circle cx="42" cy="72" r="4" fill="#FF6B35" opacity="0.9" />
+          <rect x="52" y="66" width="32" height="12" fill="#FF6B35" rx="2" opacity="0.8" />
+          <text x="68" y="75" text-anchor="middle" font-size="7" fill="#0a0a0a" font-weight="bold">HTTP</text>
+          <rect x="24" y="85" width="72" height="5" fill="#1a3a5c" rx="2" />
+        </svg>
+        <div class="status-text status-ucla">
+          <span class="status-dot ucla-dot"></span>Serving pages...
+        </div>
+      </div>
+
+      <!-- Signal -->
+      <div class="signal-area">
+        <div class="signal-label">⚡ HTTP ⚡</div>
+        <div class="signal-wire">
+          <div class="wire-line"></div>
+          <div class="message-bubble">HTML</div>
+        </div>
+        <div class="signal-distance">info.cern.ch</div>
+      </div>
+
+      <!-- Browser -->
+      <div class="building-card sri">
+        <div class="building-label">Browser</div>
+        <div class="building-sublabel">A program named<br>"WorldWideWeb"</div>
+        <svg class="building-svg" viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg">
+          <rect x="15" y="15" width="90" height="62" fill="#0d3325" rx="5" />
+          <rect x="21" y="21" width="78" height="50" fill="#0a0a0a" rx="3" />
+          <rect x="21" y="21" width="78" height="9" fill="#0a2a1e" rx="3" />
+          <circle cx="27" cy="25.5" r="2" fill="#00ffaa" />
+          <rect x="27" y="36" width="40" height="4" fill="#00ffaa" rx="2" opacity="0.9" />
+          <rect x="27" y="45" width="64" height="3" fill="#00ffaa" rx="1.5" opacity="0.5" />
+          <rect x="27" y="52" width="56" height="3" fill="#00ffaa" rx="1.5" opacity="0.5" />
+          <rect x="27" y="59" width="30" height="3" fill="#00e5ff" rx="1.5" opacity="0.9" />
+          <rect x="52" y="77" width="16" height="10" fill="#0a2a1e" />
+          <rect x="38" y="87" width="44" height="5" fill="#0d3325" rx="2" />
+        </svg>
+        <div class="status-text status-sri">
+          <span class="status-dot sri-dot"></span>Page loaded!
+        </div>
+      </div>
+    </div>
+
+    <div class="crash-section" style="--burst: '💡'">
+      <p>In March 1989, <strong>Tim Berners-Lee</strong> gave his boss a plan for linking information together. His boss wrote three words on the cover: <strong>"Vague, but exciting."</strong></p>
+    </div>
+
+    <section class="fact-card" aria-label="Quick facts">
+      <h2 class="fact-title">📋 What Really Happened</h2>
+      <div class="fact-row">
+        <div class="fact-emoji">🧑‍🔬</div>
+        <p class="fact-text"><span>Tim Berners-Lee</span>, a British scientist at the CERN physics lab, wanted an easy way for scientists to share their notes.</p>
+      </div>
+      <div class="fact-row">
+        <div class="fact-emoji">🧰</div>
+        <p class="fact-text">By the end of 1990 he had built three tools that are still used today: <span>HTML</span> to write pages, <span>URLs</span> to give each page an address, and <span>HTTP</span> to send pages between computers.</p>
+      </div>
+      <div class="fact-row">
+        <div class="fact-emoji">🖥️</div>
+        <p class="fact-text">The first web server was his own <span>NeXT computer</span>. A handwritten label on it said: "This machine is a server. DO NOT POWER IT DOWN!!"</p>
+      </div>
+      <div class="fact-row">
+        <div class="fact-emoji">🤝</div>
+        <p class="fact-text">His coworker <span>Robert Cailliau</span> helped rewrite the plan and get the project started.</p>
+      </div>
+      <div class="fact-row">
+        <div class="fact-emoji">🌐</div>
+        <p class="fact-text">The Web is <span>not the same as the Internet</span>. The Internet is the network of connected computers. The Web is the pages and links that travel over it.</p>
+      </div>
+    </section>
+
+    <section class="history-visuals" aria-label="Timeline of the early Web">
+      <h2 class="visuals-title">🧭 From Idea to Everyone</h2>
+      <ol class="timeline">
+        <li><span class="when">March 1989</span> Berners-Lee writes his plan, "Information Management: A Proposal."</li>
+        <li><span class="when">Late 1990</span> The first browser, the first server, and the first web page are working at CERN.</li>
+        <li><span class="when">August 6, 1991</span> He tells the public about the project in an online discussion group, and people outside CERN start to use it.</li>
+        <li><span class="when">December 1991</span> The first web server in the United States starts up at a physics lab in California.</li>
+        <li><span class="when">1993</span> CERN makes the Web free for everyone on April 30. A new browser named Mosaic shows pictures on the page, and the Web takes off.</li>
+      </ol>
+    </section>
+
+    <p class="footer-fun">⬅️ <a href="bbs.html">Go back to the 1970s and 80s: Bulletin Boards and Online Hangouts</a></p>
+
+  </main>
+
+</body>
+
+</html>

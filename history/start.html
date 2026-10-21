@@ -18,8 +18,8 @@
 
   <main class="container">
 
-    <div class="title-badge">🌐 The First Internet Message!</div>
-    <p class="subtitle">October 29, 1969 — The Day Computers Started Talking 🗣️💻</p>
+    <h1 class="title-badge">🌐 The First Internet Message!</h1>
+    <p class="subtitle">October 29, 1969 — The Day Computers Started Talking on ARPANET, the network that grew into the Internet 🗣️💻</p>
 
     <div class="scene">
       <!-- UCLA -->
@@ -78,40 +78,69 @@
       </div>
     </div>
     <div class="crash-section">
-      <p>The scientists tried to send the word <strong>"LOGIN"</strong>... but the computer crashed after only two letters got through!</p>
+      <p>Student programmer Charley Kline at UCLA tried to send the word <strong>"LOGIN"</strong>... but the computer at SRI crashed after only two letters got through!</p>
     </div>
+
+    <section class="fact-card" aria-label="Quick facts">
+      <h2 class="fact-title">📋 What Really Happened</h2>
+      <div class="fact-row">
+        <div class="fact-emoji">🕥</div>
+        <p class="fact-text">The message was sent at about <span>10:30 p.m.</span> from Leonard Kleinrock's lab at UCLA.</p>
+      </div>
+      <div class="fact-row">
+        <div class="fact-emoji">🧑‍💻</div>
+        <p class="fact-text"><span>Charley Kline</span> typed at UCLA while <span>Bill Duvall</span> watched the computer at SRI.</p>
+      </div>
+      <div class="fact-row">
+        <div class="fact-emoji">🔧</div>
+        <p class="fact-text">They fixed the problem, and about <span>an hour later</span> the full LOGIN worked.</p>
+      </div>
+      <div class="fact-row">
+        <div class="fact-emoji">✨</div>
+        <p class="fact-text">Kleinrock later joked that <span>"LO"</span> was the perfect first message, as in "lo and behold!"</p>
+      </div>
+    </section>
     <section class="history-visuals" aria-label="ARPANET first four nodes">
       <h2 class="visuals-title">🧭 The First 4 ARPANET Nodes</h2>
 
-      <div class="network-map" role="img" aria-label="Map of California and Utah with the first four ARPANET nodes and UCLA's original links to SRI, UCSB, and the University of Utah">
-        <svg viewBox="0 0 920 430" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
-          <line x1="286" y1="282" x2="255" y2="148" class="network-link" />
-          <line x1="286" y1="282" x2="267" y2="248" class="network-link" />
-          <line x1="286" y1="282" x2="718" y2="215" class="network-link" />
+      <div class="network-map" role="img" aria-label="Map of California and Utah showing the first four ARPANET nodes in December 1969. UCLA, SRI, and UCSB are linked to each other, and the University of Utah is linked to SRI.">
+        <svg viewBox="0 0 920 450" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="state-ca" points="113,20 260,20 260,152 449,328 445,429 362,438 312,372 242,350 193,258 172,205 127,117 106,90" />
+          <polygon class="state-ut" points="468,20 573,20 573,64 643,64 643,240 468,240" />
+
+          <line x1="315" y1="369" x2="184" y2="220" class="network-link" />
+          <line x1="315" y1="369" x2="265" y2="354" class="network-link" />
+          <line x1="184" y1="220" x2="265" y2="354" class="network-link" />
+          <line x1="184" y1="220" x2="546" y2="75" class="network-link" />
 
           <g class="map-point ucla-point">
-            <circle cx="286" cy="282" r="10" />
-            <text x="300" y="286">UCLA — Los Angeles</text>
-            <text x="300" y="305" class="node-year">First node (1969)</text>
+            <circle cx="315" cy="369" r="10" />
+            <text x="331" y="366">UCLA — Los Angeles</text>
+            <text x="331" y="385" class="node-year">Node 1 (September 1969)</text>
           </g>
 
           <g class="map-point sri-point">
-            <circle cx="255" cy="148" r="9" />
-            <text x="270" y="139">SRI — Menlo Park</text>
+            <circle cx="184" cy="220" r="9" />
+            <text x="169" y="216" text-anchor="end">SRI — Menlo Park</text>
+            <text x="169" y="235" text-anchor="end" class="node-year">Node 2 (October 1969)</text>
           </g>
 
           <g class="map-point ucsb-point">
-            <circle cx="267" cy="248" r="9" />
-            <text x="282" y="242">UCSB — Santa Barbara</text>
+            <circle cx="265" cy="354" r="9" />
+            <text x="250" y="350" text-anchor="end">UCSB — Santa Barbara</text>
+            <text x="250" y="369" text-anchor="end" class="node-year">Node 3 (November 1969)</text>
           </g>
 
           <g class="map-point utah-point">
-            <circle cx="718" cy="215" r="9" />
-            <text x="704" y="208" text-anchor="end">University of Utah — Salt Lake City</text>
+            <circle cx="546" cy="75" r="9" />
+            <text x="561" y="72">University of Utah — Salt Lake City</text>
+            <text x="561" y="91" class="node-year">Node 4 (December 1969)</text>
           </g>
         </svg>
       </div>
     </section>
+
+    <p class="footer-fun"><a href="bbs.html">Jump ahead to the 1970s and 80s: Bulletin Boards and Online Hangouts</a> ➡️</p>
 
   </main>
 

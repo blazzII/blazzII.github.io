@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bulletin board systems, Usenet, and the other online hangouts people used in the 1970s and 1980s, before the World Wide Web.">
+  <title>Bulletin Boards and Online Hangouts!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/drawing.js" defer></script>
+</head>
+
+<body>
+
+  <canvas id="netCanvas"></canvas>
+
+  <main class="container">
+
+    <h1 class="title-badge">📌 Bulletin Boards and Online Hangouts!</h1>
+    <p class="subtitle">The 1970s and 1980s — Where People Met Online Before the Web 📞💾</p>
+
+    <div class="scene">
+      <!-- Caller -->
+      <div class="building-card ucla">
+        <div class="building-label">Caller</div>
+        <div class="building-sublabel">A home computer<br>with a modem</div>
+        <svg class="building-svg" viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg">
+          <rect x="25" y="12" width="70" height="48" fill="#1a3a5c" rx="5" />
+          <rect x="31" y="18" width="58" height="36" fill="#0a0a0a" rx="3" />
+          <rect x="36" y="24" width="30" height="3" fill="#FF6B35" rx="1.5" opacity="0.9" />
+          <rect x="36" y="31" width="44" height="3" fill="#FF6B35" rx="1.5" opacity="0.6" />
+          <rect x="36" y="38" width="22" height="3" fill="#FF6B35" rx="1.5" opacity="0.6" />
+          <rect x="36" y="45" width="6" height="4" fill="#FF6B35" />
+          <rect x="18" y="64" width="84" height="14" fill="#1f4570" rx="3" />
+          <rect x="24" y="68" width="50" height="6" fill="#264d7e" rx="2" />
+          <rect x="34" y="82" width="52" height="10" fill="#0a0a0a" stroke="#264d7e" stroke-width="1.5" rx="2" />
+          <circle cx="42" cy="87" r="2" fill="#FF6B35" />
+          <circle cx="50" cy="87" r="2" fill="#FF6B35" opacity="0.5" />
+        </svg>
+        <div class="status-text status-ucla">
+          <span class="status-dot ucla-dot"></span>Dialing...
+        </div>
+      </div>
+
+      <!-- Signal -->
+      <div class="signal-area">
+        <div class="signal-label">☎️ PHONE LINE ☎️</div>
+        <div class="signal-wire">
+          <div class="wire-line"></div>
+          <div class="message-bubble">Hello!</div>
+        </div>
+        <div class="signal-distance">one caller at a time</div>
+      </div>
+
+      <!-- BBS -->
+      <div class="building-card sri">
+        <div class="building-label">BBS</div>
+        <div class="building-sublabel">A computer in<br>somebody's house</div>
+        <svg class="building-svg" viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg">
+          <rect x="15" y="12" width="90" height="76" fill="#0d3325" rx="5" />
+          <rect x="21" y="18" width="78" height="64" fill="#0a2a1e" rx="3" />
+          <rect x="27" y="24" width="30" height="24" fill="#082218" stroke="#00ffaa" stroke-width="1" rx="2" opacity="0.9" />
+          <rect x="31" y="29" width="22" height="3" fill="#00ffaa" rx="1.5" opacity="0.8" />
+          <rect x="31" y="36" width="16" height="3" fill="#00ffaa" rx="1.5" opacity="0.5" />
+          <rect x="63" y="24" width="30" height="24" fill="#082218" stroke="#00ffaa" stroke-width="1" rx="2" opacity="0.9" />
+          <rect x="67" y="29" width="18" height="3" fill="#00ffaa" rx="1.5" opacity="0.8" />
+          <rect x="67" y="36" width="22" height="3" fill="#00ffaa" rx="1.5" opacity="0.5" />
+          <rect x="27" y="54" width="66" height="22" fill="#082218" stroke="#00ffaa" stroke-width="1" rx="2" opacity="0.9" />
+          <rect x="31" y="59" width="40" height="3" fill="#00ffaa" rx="1.5" opacity="0.8" />
+          <rect x="31" y="66" width="54" height="3" fill="#00ffaa" rx="1.5" opacity="0.5" />
+          <circle cx="42" cy="24" r="2.5" fill="#00e5ff" />
+          <circle cx="78" cy="24" r="2.5" fill="#00e5ff" />
+          <circle cx="60" cy="54" r="2.5" fill="#00e5ff" />
+        </svg>
+        <div class="status-text status-sri">
+          <span class="status-dot sri-dot"></span>Connected!
+        </div>
+      </div>
+    </div>
+
+    <div class="crash-section" style="--burst: '❄️'">
+      <p>In January 1978 a giant blizzard buried Chicago. Stuck at home, <strong>Ward Christensen</strong> and <strong>Randy Suess</strong> started building a computer that friends could call to leave messages. It went online that February as <strong>CBBS</strong>, the first dial-up bulletin board system.</p>
+    </div>
+
+    <section class="fact-card" aria-label="Quick facts">
+      <h2 class="fact-title">📋 What Was a BBS?</h2>
+      <div class="fact-row">
+        <div class="fact-emoji">📌</div>
+        <p class="fact-text">A <span>bulletin board system</span> was a computer you called with your own computer to read messages, post replies, trade files, and play text games.</p>
+      </div>
+      <div class="fact-row">
+        <div class="fact-emoji">☎️</div>
+        <p class="fact-text">Most BBSes were <span>not on the Internet</span>. Your modem dialed the board's phone number directly, and many boards had only one phone line. If someone else was on, you got a busy signal.</p>
+      </div>
+      <div class="fact-row">
+        <div class="fact-emoji">🐢</div>
+        <p class="fact-text">Early modems ran at <span>300 bits per second</span>. Words appeared on the screen slowly enough that you could read along as they arrived.</p>
+      </div>
+      <div class="fact-row">
+        <div class="fact-emoji">🧑‍💻</div>
+        <p class="fact-text">The person who ran a board was called the <span>sysop</span>, short for system operator. Many were hobbyists running a board from a spare room.</p>
+      </div>
+      <div class="fact-row">
+        <div class="fact-emoji">📈</div>
+        <p class="fact-text">By the early 1990s there were <span>tens of thousands</span> of boards in North America. Then the Web arrived and most of them faded away.</p>
+      </div>
+    </section>
+
+    <section class="history-visuals" aria-label="Well-known dial-up boards and services">
+      <h2 class="visuals-title">☎️ Famous Boards and Dial-Up Services</h2>
+      <ol class="timeline">
+        <li><span class="when">1973</span> Community Memory puts a public computer terminal in a record store in Berkeley, California. Anyone can walk up and post a notice.</li>
+        <li><span class="when">1978</span> CBBS in Chicago becomes the first dial-up bulletin board. Thousands of hobby boards follow.</li>
+        <li><span class="when">1979</span> CompuServe and The Source open to home users. They are big paid services with news, email, and chat rooms.</li>
+        <li><span class="when">1984</span> FidoNet links separate boards together. Boards call each other at night to pass messages along, so a note can cross the country.</li>
+        <li><span class="when">1985</span> The WELL opens in California and becomes one of the best-known online communities. Quantum Link starts for Commodore 64 owners and later becomes America Online.</li>
+        <li><span class="when">1986</span> The Cleveland Free-Net gives a whole city free dial-up access to community information.</li>
+      </ol>
+    </section>
+
+    <section class="history-visuals" aria-label="Public gathering places on the early networks">
+      <h2 class="visuals-title">🌐 Meanwhile, on the Networks</h2>
+      <ol class="timeline">
+        <li><span class="when">1973</span> PLATO, a teaching system at the University of Illinois, adds message boards called Notes and a chat program called Talkomatic.</li>
+        <li><span class="when">1975</span> MsgGroup becomes the first ARPANET mailing list. A list for science fiction fans, SF-Lovers, soon becomes a favorite.</li>
+        <li><span class="when">1978</span> MUD, the first online multi-player adventure world, starts at the University of Essex in England.</li>
+        <li><span class="when">1980</span> Usenet begins sharing "newsgroups" between Duke University and the University of North Carolina. It grows into a worldwide set of discussion boards on every topic.</li>
+        <li><span class="when">1988</span> Internet Relay Chat (IRC) is created in Finland, letting people around the world type to each other live.</li>
+      </ol>
+    </section>
+
+    <p class="footer-fun">
+      ⬅️ <a href="start.html">Go back to 1969: The First Internet Message</a><br>
+      <a href="www.html">Jump ahead to 1989: The World Wide Web Begins</a> ➡️
+    </p>
+
+  </main>
+
+</body>
+
+</html>

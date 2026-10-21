@@ -1,1 +1,0 @@
-    <h1><span class="blazzlogo"><span class="green">.:</span><span class="brown">|</span><span class="green">:.</span></span> blazzard.</h1>

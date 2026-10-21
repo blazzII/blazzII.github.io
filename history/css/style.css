@@ -54,6 +54,7 @@ body {
   background: linear-gradient(135deg, #003366, #005599);
   color: var(--cyan);
   font-family: 'Fredoka One', cursive;
+  font-weight: 400;
   font-size: clamp(2rem, 6vw, 3.5rem);
   padding: 16px 40px;
   border-radius: 60px;
@@ -222,6 +223,7 @@ body {
 
   & .visuals-title {
     font-family: 'Fredoka One', cursive;
+    font-weight: 400;
     font-size: 1.4rem;
     color: var(--cyan);
     margin-bottom: 16px;
@@ -341,6 +343,7 @@ body {
 
   & .fact-title {
     font-family: 'Fredoka One', cursive;
+    font-weight: 400;
     font-size: 1.6rem;
     color: var(--cyan);
     margin-bottom: 16px;
@@ -386,7 +389,7 @@ body {
   color: #fff;
 
   &::before {
-    content: '💥';
+    content: var(--burst, '💥');
     font-size: 8rem;
     position: absolute;
     right: -10px;
@@ -402,6 +405,36 @@ body {
   margin-top: 40px;
   animation: fadeUp 1s 1.2s both;
   text-shadow: 0 0 12px rgba(0, 255, 170, 0.5);
+}
+
+.footer-fun a {
+  color: inherit;
+}
+
+.timeline {
+  list-style: none;
+  text-align: left;
+
+  & li {
+    display: grid;
+    grid-template-columns: 8.5rem 1fr;
+    gap: 14px;
+    padding: 12px 6px;
+    border-top: 1px solid rgba(0, 229, 255, 0.15);
+    color: var(--light);
+    font-weight: 700;
+    line-height: 1.5;
+
+    &:first-child {
+      border-top: 0;
+    }
+  }
+
+  & .when {
+    font-family: 'Fredoka One', cursive;
+    font-weight: 400;
+    color: var(--cyan);
+  }
 }
 
 .status-dot {

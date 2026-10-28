@@ -61,7 +61,8 @@
   },
   {
     "name": "Brigham City Utah",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/brigham-city-utah/800x500/brigham-city-temple-lds-1027480-wallpaper.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/brigham-city-utah/800x500/brigham-city-temple-lds-1027480-wallpaper.jpg",
+    "ourimage": "images/us/brigham-city-utah.jpg"
   },
   {
     "name": "Payson Utah",
@@ -69,11 +70,13 @@
   },
   {
     "name": "Provo City Center Utah",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/provo-city-center/2018/800x500/Provo-City-Center-Temple03.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/provo-city-center/2018/800x500/Provo-City-Center-Temple03.jpg",
+    "ourimage": "images/us/provo-city-center-utah.jpg"
   },
   {
     "name": "Manti Utah",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/800x500/manti-temple-766504-wallpaper.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/800x500/manti-temple-766504-wallpaper.jpg",
+    "ourimage": "images/us/manti-utah.jpg"
   },
   {
     "name": "Logan Utah",
@@ -85,7 +88,8 @@
   },
   {
     "name": "Red Cliffs Utah",
-    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/red-cliffs-utah-temple/red-cliffs-utah-temple-44639.jpg"
+    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/red-cliffs-utah-temple/red-cliffs-utah-temple-44639.jpg",
+    "ourimage": "images/us/red-cliffs-utah.jpg"
   },
   {
     "name": "Mount Timpanogos Utah",
@@ -121,11 +125,13 @@
   },
   {
     "name": "Orem Utah",
-    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/orem-utah-temple/orem-utah-temple-42114.jpg"
+    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/orem-utah-temple/orem-utah-temple-42114.jpg",
+    "ourimage": "images/us/orem-utah.jpg"
   },
   {
     "name": "Taylorsville Utah",
-    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/taylorsville-utah-temple/taylorsville-utah-temple-46894.jpg"
+    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/taylorsville-utah-temple/taylorsville-utah-temple-46894.jpg",
+    "ourimage": "images/us/taylorsville-utah.jpg"
   },
   {
     "name": "Vernal Utah",
@@ -137,43 +143,53 @@
   },
   {
     "name": "Ogden Utah",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/ogden-utah/800x500/ogden-utah-temple-1300442-wallpaper.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/ogden-utah/800x500/ogden-utah-temple-1300442-wallpaper.jpg",
+    "ourimage": "images/us/ogden-utah.jpg"
   },
   {
     "name": "Frankfurt Germany",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/frankfurt-germany/800x500/frankfurt-temple-1-2278179.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/frankfurt-germany/800x500/frankfurt-temple-1-2278179.jpg",
+    "ourimage": "images/us/frankfurt-germany.jpg"
   },
   {
     "name": "Feather River California",
-    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/feather-river-california-temple/feather-river-california-temple-39697-main.jpg"
+    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/feather-river-california-temple/feather-river-california-temple-39697-main.jpg",
+    "ourimage": "images/us/feather-river-california.jpg"
   },
   {
     "name": "Sacramento California",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/sacramento-california/800x500/sacramento-temple-769989-wallpaper.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/sacramento-california/800x500/sacramento-temple-769989-wallpaper.jpg",
+    "ourimage": "images/us/sacramento-california.jpg"
   },
   {
     "name": "Snowflake Arizona",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/snowflake-arizona/800x500/snowflake-temple-lds-845024-wallpaper.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/snowflake-arizona/800x500/snowflake-temple-lds-845024-wallpaper.jpg",
+    "ourimage": "images/us/snowflake-arizona.jpg"
   },
   {
     "name": "Tucson Arizona",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/tucson-arizona/800x500/tucson-arizona-temple-exterior-1929291-wallpaper.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/tucson-arizona/800x500/tucson-arizona-temple-exterior-1929291-wallpaper.jpg",
+    "ourimage": "images/us/tucson-arizona.jpg"
   },
   {
     "name": "Gilbert Arizona",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/gilbert-arizona/800x500/gilbert-arizona-lds-temple-1172166-wallpaper.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/gilbert-arizona/800x500/gilbert-arizona-lds-temple-1172166-wallpaper.jpg",
+    "ourimage": "images/us/gilbert-arizona.jpg"
   },
   {
     "name": "Mesa Arizona",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mesa-arizona/800x500/mesa_arizona_temple_news_conference.jpeg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mesa-arizona/800x500/mesa_arizona_temple_news_conference.jpeg",
+    "ourimage": "images/us/mesa-arizona.jpg"
   },
   {
     "name": "Phoenix Arizona",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/pheonix-arizona/2018/800x500/Phoenix-Arizona-Temple-4-1300737.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/pheonix-arizona/2018/800x500/Phoenix-Arizona-Temple-4-1300737.jpg",
+    "ourimage": "images/us/phoenix-arizona.jpg"
   },
   {
     "name": "Deseret Peak Utah",
-    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/deseret-peak-utah-temple/deseret-peak-utah-temple-54400-main.jpg"
+    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/deseret-peak-utah-temple/deseret-peak-utah-temple-54400-main.jpg",
+    "ourimage": "images/us/deseret-peak-utah.jpg"
   },
   {
     "name": "Fort Collins Colorado",
@@ -185,118 +201,152 @@
   },
   {
     "name": "Newport Beach California",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/newport-beach-california/800x500/newport-beach-temple-lds-917306-wallpaper.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/newport-beach-california/800x500/newport-beach-temple-lds-917306-wallpaper.jpg",
+    "ourimage": "images/us/newport-beach-california.jpg"
   },
   {
     "name": "Redlands California",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/redlands-california/800x500/redlands-temple-lds-165642-wallpaper.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/redlands-california/800x500/redlands-temple-lds-165642-wallpaper.jpg",
+    "ourimage": "images/us/redlands-california.jpg"
   },
   {
     "name": "Los Angeles California",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/los-angeles-california/800x500/los-angeles-california-temple-1079458-wallpaper.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/los-angeles-california/800x500/los-angeles-california-temple-1079458-wallpaper.jpg",
+    "ourimage": "images/us/los-angeles-california.jpg"
   },
   {
     "name": "Chicago Illinois",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/chicago-illinois/800x500/Chicago-Temple_0738.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/chicago-illinois/800x500/Chicago-Temple_0738.jpg",
+    "ourimage": "images/us/chicago-illinois.jpg"
   },
   {
     "name": "Nauvoo Illinois",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/nauvoo-illinois/800x500/nauvoo-temple-756496-wallpaper.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/nauvoo-illinois/800x500/nauvoo-temple-756496-wallpaper.jpg",
+    "ourimage": "images/us/nauvoo-illinois.jpg"
   },
   {
     "name": "Palmyra New York",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/palmyra-new-york/800x500/palmyra-temple-lds-901867-wallpaper.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/palmyra-new-york/800x500/palmyra-temple-lds-901867-wallpaper.jpg",
+    "ourimage": "images/us/palmyra-new-york.jpg"
   },
   {
     "name": "Pittsburgh Pennsylvania",
-    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/pittsburgh-pennsylvania-temple/pittsburgh-pennsylvania-temple-60448-main.jpg"
+    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/pittsburgh-pennsylvania-temple/pittsburgh-pennsylvania-temple-60448-main.jpg",
+    "ourimage": "images/us/pittsburgh-pennsylvania.jpg"
   },
   {
     "name": "Syracuse Utah",
-    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/syracuse-utah-temple/syracuse-utah-temple-60048.jpg"
+    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/syracuse-utah-temple/syracuse-utah-temple-60048.jpg",
+    "ourimage": "images/us/syracuse-utah.jpg"
   },
   {
     "name": "Layton Utah",
-    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/layton-utah-temple/layton-utah-temple-47164.jpg"
+    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/layton-utah-temple/layton-utah-temple-47164.jpg",
+    "ourimage": "images/us/layton-utah.jpg"
   },
   {
     "name": "London England",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/london-england/800x500/london-england-temple-lds-784251-wallpaper.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/london-england/800x500/london-england-temple-lds-784251-wallpaper.jpg",
+    "ourimage": "images/us/london-england.jpg"
   },
   {
     "name": "Preston England",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/preston-england/800x500/preston-temple-762730-wallpaper.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/preston-england/800x500/preston-temple-762730-wallpaper.jpg",
+    "ourimage": "images/us/preston-england.jpg"
   },
   {
     "name": "Dallas Texas",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/dallas-texas/2018/800x500/Dallas-Texas-Temple14.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/dallas-texas/2018/800x500/Dallas-Texas-Temple14.jpg",
+    "ourimage": "images/us/dallas-texas.jpg"
   },
   {
     "name": "Pocatello Idaho",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/pocatello-idaho/800x800/pocatello-idaho-temple-open-house-2.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/pocatello-idaho/800x800/pocatello-idaho-temple-open-house-2.jpg",
+    "ourimage": "images/us/pocatello-idaho.jpg"
   },
   {
     "name": "Washington D.C.",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/800x500/washington_dc_temple-exterior-3.jpeg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/800x500/washington_dc_temple-exterior-3.jpeg",
+    "ourimage": "images/us/washington-dc.jpg"
   },
   {
     "name": "Philadelphia Pennsylvania",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/philadelphia-pennsylvania/800x500/philadelphia-pennsylvania-temple-exterior-1775821-wallpaper.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/philadelphia-pennsylvania/800x500/philadelphia-pennsylvania-temple-exterior-1775821-wallpaper.jpg",
+    "ourimage": "images/us/philadelphia-pennsylvania.jpg"
   },
   {
     "name": "Hartford Connecticut",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/hartford-connecticut/2018/800x500/Hartford-Temple01.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/hartford-connecticut/2018/800x500/Hartford-Temple01.jpg",
+    "ourimage": "images/us/hartford-connecticut.jpg"
   },
   {
     "name": "Boston Massachusetts",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/boston-massachusetts/800x500/boston-temple-lds-945541-wallpaper.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/boston-massachusetts/800x500/boston-temple-lds-945541-wallpaper.jpg",
+    "ourimage": "images/us/boston-massachusetts.jpg"
   },
   {
     "name": "Grand Junction Colorado",
-    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/grand-junction-colorado-temple/grand-junction-colorado-temple-64066.jpg"
+    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/grand-junction-colorado-temple/grand-junction-colorado-temple-64066.jpg",
+    "ourimage": "images/us/grand-junction-colorado.jpg"
   },
   {
     "name": "Monticello Utah",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/monticello-utah/800x500/monticello-temple-lds-885488-wallpaper.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/monticello-utah/800x500/monticello-temple-lds-885488-wallpaper.jpg",
+    "ourimage": "images/us/monticello-utah.jpg"
   },
   {
     "name": "San Jose Costa Rica",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/san-jose-costa-rica/1280x800/san-jose-costa-rica-temple-lds-1006824-wallpaper.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/san-jose-costa-rica/1280x800/san-jose-costa-rica-temple-lds-1006824-wallpaper.jpg",
+    "ourimage": "images/us/san-jose-costa-rica.jpg"
   },
   {
     "name": "Twin Falls Idaho",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/twin-falls-idaho/800x500/twin-falls-temple-766327-wallpaper.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/twin-falls-idaho/800x500/twin-falls-temple-766327-wallpaper.jpg",
+    "ourimage": "images/us/twin-falls-idaho.jpg"
   },
   {
     "name": "Burley Idaho",
-    "imageurl": "images/burley-idaho-temple-sq.jpg"
+    "imageurl": "images/burley-idaho-temple-sq.jpg",
+    "ourimage": "images/us/burley-idaho.jpg"
   },
   {
     "name": "Star Valley Wyoming",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/star-valley-wyoming/800x500/star-valley-temples-wyoming-exterior-sunrises-1806209-wallpaper.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/star-valley-wyoming/800x500/star-valley-temples-wyoming-exterior-sunrises-1806209-wallpaper.jpg",
+    "ourimage": "images/us/star-valley-wyoming.jpg"
   },
   {
     "name": "Lindon Utah",
-    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/lindon-utah-temple/lindon-utah-temple-69023.jpg"
+    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/lindon-utah-temple/lindon-utah-temple-69023.jpg",
+    "ourimage": "images/us/lindon-utah.jpg"
   },
   {
     "name": "Bern Switzerland",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/800x500/ber-switzerland-temple-lds-903376-wallpaper.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/800x500/ber-switzerland-temple-lds-903376-wallpaper.jpg",
+    "ourimage": "images/us/bern-switzerland.jpg"
   },
   {
     "name": "Rome Italy",
-    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/rome-italy/2019/800x500/7-Rome-Temple-2160340.jpg"
+    "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/rome-italy/2019/800x500/7-Rome-Temple-2160340.jpg",
+    "ourimage": "images/us/rome-italy.jpg"
   },
   {
     "name": "San Diego California",
-    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/san-diego-california-temple/san-diego-california-temple-9060-main.jpg"
+    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/san-diego-california-temple/san-diego-california-temple-9060-main.jpg",
+    "ourimage": "images/us/san-diego-california.jpg"
   },
   {
     "name": "Tijuana Mexico",
-    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/tijuana-mexico-temple/tijuana-mexico-temple-14590-main.jpg"
+    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/tijuana-mexico-temple/tijuana-mexico-temple-14590-main.jpg",
+    "ourimage": "images/us/tijuana-mexico.jpg"
   },
   {
     "name": "Yorba Linda California",
-    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/yorba-linda-california-temple/yorba-linda-california-temple-70766-main.jpg"
+    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/yorba-linda-california-temple/yorba-linda-california-temple-70766-main.jpg",
+    "ourimage": "images/us/yorba-linda-california.jpg"
+  },
+  {
+    "name": "Ephraim Utah",
+    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/ephraim-utah-temple/ephraim-utah-temple-74153-main.jpg",
+    "ourimage": "images/us/ephraim-utah.jpg"
   }
 ]

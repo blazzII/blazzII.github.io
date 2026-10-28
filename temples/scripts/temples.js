@@ -44,7 +44,23 @@ async function getTemples() {
       // Append elements to the section
       section.appendChild(name);
       section.appendChild(paragraph);
-      section.appendChild(image);
+
+      // Our own photo at this temple fades in over the stock image on hover
+      if (temple.ourimage) {
+        const photo = document.createElement('div');
+        const ours = document.createElement('img');
+        photo.className = 'temple-photo';
+        photo.tabIndex = 0;
+        ours.src = temple.ourimage;
+        ours.alt = `Jason and Christine at the ${temple.name} Temple`;
+        ours.className = 'our-photo';
+        ours.loading = "lazy";
+        photo.appendChild(image);
+        photo.appendChild(ours);
+        section.appendChild(photo);
+      } else {
+        section.appendChild(image);
+      }
 
       // Append the section to the container
       templeContainer.appendChild(section);

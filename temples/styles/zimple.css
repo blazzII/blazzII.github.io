@@ -82,6 +82,30 @@ body {
   border: 1px solid var(--line);
 }
 
+/* Our photo sits over the stock temple image and fades in on hover/focus. */
+.temple-photo {
+  position: relative;
+}
+
+.temple-photo .our-photo {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+.temple-photo:hover .our-photo,
+.temple-photo:focus .our-photo {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .temple-photo .our-photo {
+    transition: none;
+  }
+}
+
 .site-footer {
   color: #e6dcf7;
 }
